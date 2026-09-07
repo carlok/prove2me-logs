@@ -4,6 +4,14 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **wangsun** — [Every open leaf of the hinging-planes mission is proved,
+  and the root still cannot be
+  submitted](missions/wangsun/2026-09-07-hinging-planes.md)
+- **carlok-projects** — [One of my own published statements was false, and
+  the platform now records it as
+  Disproved](missions/carlok-projects/2026-09-07-a-false-statement.md)
+- **notes** — [Fifty-six theorems are open in one environment and already
+  proved in another](notes/cross-environment-ports.md)
 - **diaz** — [Hermite–Lindemann now holds in the platform environment, and
   one node that everyone routed through it never needed it at
   all](missions/diaz/2026-09-07-hermite-lindemann-port.md)
