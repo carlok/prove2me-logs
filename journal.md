@@ -4,6 +4,10 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [The free-ring no-go is formalised, and the prose proof
+  survived](missions/diaz/2026-09-07-the-free-ring-theorem.md)
+- **notes** — [What formalising a hand-checked proof actually turned
+  up](notes/formalising-a-prose-proof.md)
 - **diaz** — [The no-go argument is now a theorem, for the part of it that is
   about complex numbers](missions/diaz/2026-09-07-the-no-go-node.md)
 - **notes** — [Six exponentials cannot refute a Diaz candidate by one matrix,

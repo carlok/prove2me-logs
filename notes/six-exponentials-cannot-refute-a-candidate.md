@@ -153,10 +153,32 @@ makes `s` integral over `Q̄`, hence in it. At `n = 2` the span step fails becau
 threshold is the dimension of the certificate space and nothing else — which turns
 the qualitative remark above ("`ℒ̃` supplies `1` and `c`") into a number.
 
-**Not checked.** The free-ring theorem of the previous sections — the general
-statement, with the `T_b` for every other basis logarithm — remains **prose**. Every
-branch of its proof has been re-read by hand and no error was found, but hand-reading
-is not verification, and this note should not be cited as though it were.
+**Also checked, in a two-variable cut-down.** The free-ring theorem itself has since
+been formalised as pure commutative algebra, with `A = K[X, T]` — one `T` rather than
+one per basis logarithm. 838 lines of Lean, clean build, zero `sorry`, axioms
+`[propext, Classical.choice, Quot.sound]`. **The proof survives: no error was found in
+any of the four branches.**
+
+Two things came out stronger than stated above. `K` is an arbitrary field, not `Q̄`,
+and the dimension hypothesis is a cardinal `Module.rank` bound rather than finite
+dimensionality. And the threshold is machine-checked to be sharp: `Z = span{X, X²}`
+with `s = 1/X` satisfies every hypothesis at rank 2 with `s ∉ K`, so 3 cannot be
+lowered — and that witness is precisely the free-ring shadow of the strong four
+exponentials template, the row of the table that has to survive.
+
+One cosmetic slip in the write-up above, which is not an error in the theorem. The
+coefficient of `T_b T_b'` in `gh` is `γ_b h_b' + γ_b' h_b` only for `b ≠ b'`; the
+diagonal coefficient is `γ_b h_b`, not `2γ_b h_b`. Setting `b = b' = b₀` in the
+displayed formula is therefore an abuse. It is harmless over `Q̄`, and using the
+correct diagonal is exactly why the formalised version holds in any characteristic.
+
+**Still not checked.** One step, and only one. When there are at least two `T_b` and
+some `γ_{b₀} ≠ 0`, killing `h_b` for the *other* `b` with `γ_b = 0` uses the
+off-diagonal relation `γ_{b₀} h_b + γ_b h_{b₀} = γ_{b₀} h_b = 0`. A ring with a single
+`T` has no mixed monomials, so that instance is verified in shape rather than in
+generality. It has been re-derived by hand and is correct; it is not formalised.
+Everything else in the argument is independent of how many `T_b` there are, and is
+checked.
 
 **Why the gap does not close by trying harder.** The general version quantifies over
 a certificate space that is infinite-dimensional, so the dimension argument says
