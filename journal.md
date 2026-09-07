@@ -4,6 +4,8 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [The no-go argument is now a theorem, for the part of it that is
+  about complex numbers](missions/diaz/2026-09-07-the-no-go-node.md)
 - **notes** — [Six exponentials cannot refute a Diaz candidate by one matrix,
   and there is a proof rather than a failed
   search](notes/six-exponentials-cannot-refute-a-candidate.md)

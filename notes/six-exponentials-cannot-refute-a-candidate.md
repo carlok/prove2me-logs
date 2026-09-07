@@ -126,6 +126,49 @@ impossibility or no-go statement of any kind:
 Three papers is not a literature search. The accurate description is: elementary,
 possibly folklore, not found in the sources consulted.
 
+## Verification status — read this before citing the argument above
+
+**Update, same day.** Part of this is now machine-checked, and part is not. The
+distinction matters and is easy to lose.
+
+**Checked.** The `u`-generated fragment is a Proved node:
+`DiazModulus.sixExponentials_cannot_refute_candidate`
+(<https://prove2.me/theorems/de25fa09-b094-4a91-a49a-1b0face79465>), Lean 4 against
+Mathlib `0df444a3`, zero `sorry`, axioms `[propext, Classical.choice, Quot.sound]`
+with no `sorryAx`. For `V = span_Q̄{1, u, conj u}` it proves three things at once:
+that a candidate makes `V ≤ ℒ̃`; that under Hermite–Lindemann `dim_Q̄ V = 3` and the
+`2×2` template `x = (1, conj u)`, `y = (1, u)` does fit inside `V`; and that for
+**every** complex `u`, with no hypothesis, no `2×3` template fits.
+
+That third clause carrying no hypothesis is deliberate. A statement quantified over
+candidates would be conjecturally vacuous, the candidate set being empty if the
+conjecture holds.
+
+Its proof is **not** the gcd-and-degree argument above. Over `ℂ` the whole thing
+collapses to linear algebra: `Q̄`-independence of `x` gives `s = x₁/x₀ ∉ Q̄`; the
+`z_j = x₀ y_j` are independent, so when `dim V ≤ n` their span *is* `V`, forcing
+`s·V ⊆ V`; and a non-zero finitely generated `Q̄`-submodule of `ℂ` stable under `s`
+makes `s` integral over `Q̄`, hence in it. At `n = 2` the span step fails because
+`2 < 3`, which is precisely why the four-exponentials template survives. The
+threshold is the dimension of the certificate space and nothing else — which turns
+the qualitative remark above ("`ℒ̃` supplies `1` and `c`") into a number.
+
+**Not checked.** The free-ring theorem of the previous sections — the general
+statement, with the `T_b` for every other basis logarithm — remains **prose**. Every
+branch of its proof has been re-read by hand and no error was found, but hand-reading
+is not verification, and this note should not be cited as though it were.
+
+**Why the gap does not close by trying harder.** The general version quantifies over
+a certificate space that is infinite-dimensional, so the dimension argument says
+nothing there. Forbidding `2×3` templates with entries anywhere in `ℒ̃` is not a
+weaker target that better technique would reach — **it is the strong six exponentials
+conjecture**, and it is open. The `u`-generated fragment is the largest piece that is
+a theorem about `ℂ` rather than a statement about a class of proofs.
+
+Formalising the free-ring theorem *as commutative algebra* — a statement about
+`Q̄[X, T]`, with no claim about `ℂ` — is a separate and genuinely available task. It
+would verify the argument without extending its reach.
+
 ## As a formalisation target
 
 Poor. It quantifies over Laurent polynomials indexed by a basis of `ℒ`. A finite
