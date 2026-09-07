@@ -4,6 +4,10 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **conway99** — [Seven is not a sum of three squares, and that closes the
+  trace-ten case](missions/conway99/2026-09-07-trace-ten-with-a-four.md)
+- **opg500** — [Two structural bridges, proved but not yet attached to
+  anything](missions/opg500/2026-09-07-two-bridges.md)
 - **nt-cluster** — [Two number-theory missions that cannot be closed as
   decomposed](missions/nt-cluster/2026-09-07-two-missions-that-cannot-close.md)
 - **six-exp** — [The six exponentials theorem is proved: the ladder closed in
