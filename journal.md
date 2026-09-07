@@ -4,6 +4,9 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [Hermite–Lindemann now holds in the platform environment, and
+  one node that everyone routed through it never needed it at
+  all](missions/diaz/2026-09-07-hermite-lindemann-port.md)
 - **six-exp** — [The zero estimate of Schneider's method is a statement
   about characters, and Mathlib already has the theorem that kills
   it](missions/six-exp/2026-09-07-zero-estimate.md)
