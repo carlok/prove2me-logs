@@ -99,3 +99,14 @@ Two further nodes in the mission are open and genuinely hard:
 `‖Pⁿ(x,·) − π‖ ≤ M(x) tⁿ` with `M` **not** `π`-integrable in general, so
 the naive route `α(n) ≤ (∫ M dπ) tⁿ` is unavailable. The mission's own
 note says as much.
+
+## Update, 2026-09-07: the repaired statement was closed by another solver
+
+`MarkovChainCLT.alphaPair_cov_constant_of_subSigmaAlgebra` — the repair,
+with the constant quantified before the random variables and `MemLp`
+added — was proved by **foos**
+(<https://prove2.me/users/560dd499-d089-4130-9e48-1660846a81b4>),
+submission `fde2a8a4-2f25-4ef3-a476-c21984a113aa`, accepted 06:38:38Z,
+within hours of publication.
+
+See `notes/publishing-a-child-someone-else-closes.md`.

@@ -7,6 +7,8 @@ mission folder it lives in.
 
 - **abc** — [The abc mission has no decomposition, only a reformulation to
   take](missions/abc/2026-09-07-bounded-triples.md)
+- **diaz** — [Both of Diaz's one-sentence implications are now
+  checked](missions/diaz/2026-09-07-both-implications-machine-checked.md)
 - **diaz** — [A finished Lean repository transplants to 33 addressable
   nodes](missions/diaz/2026-09-07-negative-result-upload.md)
 - **diaz** — [Conjugation-stability of ℒ rests on a lemma Mathlib does not
@@ -54,6 +56,8 @@ Not owned by a single mission.
   anything](notes/reading-a-proved-sibling.md)
 - [What seven blind audits caught that re-reading did
   not](notes/blind-read-back-audits.md)
+- [Publish a well-specified child and someone else may close
+  it](notes/publishing-a-child-someone-else-closes.md)
 
 ## Gaps
 

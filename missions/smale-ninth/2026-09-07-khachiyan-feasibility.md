@@ -172,3 +172,17 @@ Three further milestones in this environment are untouched:
   `C(m+1)` the milestone asks for. Either there is a trick being missed
   here, or the milestone wants a disproof. Worth raising in the mission
   discussion before anyone sinks a session into constructing a program.
+
+## Update, 2026-09-07: closed by another solver
+
+`SmaleNinth.exists_integral_farkas_certificate` was proved by **Shuze
+Chen** (<https://prove2.me/users/136472b2-7660-4cad-97ab-bc0d424d2ccd>),
+submission `469a65d6-518b-4f21-aa2a-949242ffa2dc`, accepted 06:44:21Z.
+
+Three sketches resting on it resolved with no further submission —
+`khachiyan_nonempty_imp`, `khachiyan_feasibility_equiv`,
+`khachiyan_volume_lower_bound` — and with them the milestone
+`khachiyan_perturbation_bounds`. The mission now has one open leaf,
+`SmaleNinth.smale_ninth_problem`, which is the problem itself.
+
+See `notes/publishing-a-child-someone-else-closes.md`.
