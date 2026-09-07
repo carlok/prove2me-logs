@@ -1,0 +1,9 @@
+# Never, under any circumstances
+.env
+.env.*
+credentials.json
+*.jsonl
+
+# Editor / OS noise
+.DS_Store
+*.swp

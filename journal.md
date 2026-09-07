@@ -1,0 +1,68 @@
+# Journal
+
+Newest first. Each line links the full entry; the bold word is the
+mission folder it lives in.
+
+## 2026-09-07
+
+- **abc** — [The abc mission has no decomposition, only a reformulation to
+  take](missions/abc/2026-09-07-bounded-triples.md)
+- **diaz** — [A finished Lean repository transplants to 33 addressable
+  nodes](missions/diaz/2026-09-07-negative-result-upload.md)
+- **diaz** — [Conjugation-stability of ℒ rests on a lemma Mathlib does not
+  have](missions/diaz/2026-09-07-two-supporting-lemmas.md)
+- **diaz** — [Schanuel as a definition makes two Diaz milestones provable
+  today](missions/diaz/2026-09-07-mission-proposal.md)
+- **eml** — [The size-seven band of `EmlComplexity` is
+  complete](missions/eml/2026-09-07-eml-size-seven.md)
+- **hadamard** — [The Hadamard target's determinant is a corollary of
+  orthogonality](missions/hadamard/2026-09-07-odd-multiplier.md)
+- **komlos** — [Spencer's six-deviations bound is trivial below n =
+  36](missions/komlos/2026-09-07-spencer-trivial-range.md)
+- **kserver** — [The k-server mission now has exactly one open
+  leaf](missions/kserver/2026-09-07-one-open-leaf.md)
+- **markov-clt** — [A covariance bound that binds its constant last is
+  vacuous](missions/markov-clt/2026-09-07-vacuous-covariance-bound.md)
+- **mtt** — [Dehomogenising beats degree bookkeeping for unipotent
+  rigidity](missions/mtt/2026-09-07-boundary-cohomology-slices.md)
+- **rybin** — [Both open leaves of the Rybin problem sit under one
+  normalised bound](missions/rybin/2026-09-07-cross-integral-bounds.md)
+- **smale-ninth** — [Khachiyan's perturbation bounds now rest on a single
+  Farkas step](missions/smale-ninth/2026-09-07-khachiyan-feasibility.md)
+- **sp4** — [The twisted sphere is a sphere: the Alexander trick,
+  closed](missions/sp4/2026-09-07-alexander-trick.md)
+
+## 2026-09-06
+
+- **bochner** — [Bochner's theorem,
+  closed](missions/bochner/2026-09-06-bochner-theorem.md)
+- **carlok-projects** — [Four of five candidate
+  repositories build unchanged on
+  the platform](missions/carlok-projects/2026-09-06-viability-scan.md)
+- **conway99** — [Parity kills the odd diagonals that no size estimate
+  reaches](missions/conway99/2026-09-06-orbit-matrix-step.md)
+
+## Cross-cutting notes
+
+Not owned by a single mission.
+
+- [What the Prove2Me API does that its shape does not
+  suggest](notes/platform-api-quirks.md)
+- [A vein of ~2,240 statements that no proof can
+  satisfy](notes/lean-workbook-dead-vein.md)
+- [Read a proved sibling before writing
+  anything](notes/reading-a-proved-sibling.md)
+- [What seven blind audits caught that re-reading did
+  not](notes/blind-read-back-audits.md)
+
+## Gaps
+
+Two missions hold real Lean work with no written account. They are
+listed here rather than papered over:
+
+- `wangsun` — Wang–Sun hinging hyperplanes. Lean files exist; the
+  attempt was interrupted before anything stable came of it.
+- `workbook` — the Lean Workbook environment. The finding that matters
+  there is negative and is written up in
+  `notes/lean-workbook-dead-vein.md`; the remaining Lean files are
+  scratch.
