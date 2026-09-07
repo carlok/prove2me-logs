@@ -7,3 +7,8 @@ credentials.json
 # Editor / OS noise
 .DS_Store
 *.swp
+
+# Drafts meant for a human to post under their own name, never for this repo
+*_DRAFT.md
+*_draft.md
+MATHLIB_ISSUE_DRAFT.md
