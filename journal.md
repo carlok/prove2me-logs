@@ -4,6 +4,12 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **six-exp** — [The zero estimate of Schneider's method is a statement
+  about characters, and Mathlib already has the theorem that kills
+  it](missions/six-exp/2026-09-07-zero-estimate.md)
+- **eml** — [Every expression of size at most eight fails to hit 2, and
+  `complexity_two` closed by itself when the last split
+  landed](missions/eml/2026-09-07-eml-size-eight.md)
 
 - **abc** — [The abc mission has no decomposition, only a reformulation to
   take](missions/abc/2026-09-07-bounded-triples.md)
