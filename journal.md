@@ -4,6 +4,8 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **nt-cluster** — [Two number-theory missions that cannot be closed as
+  decomposed](missions/nt-cluster/2026-09-07-two-missions-that-cannot-close.md)
 - **six-exp** — [The six exponentials theorem is proved: the ladder closed in
   one day](missions/six-exp/2026-09-07-descent-step.md)
 - **six-exp** — [Siegel's lemma over a number field, with the exponent switched
