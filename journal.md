@@ -4,6 +4,11 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **notes** — [Six exponentials cannot refute a Diaz candidate by one matrix,
+  and there is a proof rather than a failed
+  search](notes/six-exponentials-cannot-refute-a-candidate.md)
+- **notes** — [An erratum that is easy to miss, and it lands in exactly this
+  neighbourhood](notes/waldschmidt-2004-erratum.md)
 - **diaz** — [Two candidate nodes published and proved, with the precedent
   named](missions/diaz/2026-09-07-two-candidate-nodes.md)
 - **conway99** — [`M = C − 2J + 4I` satisfies `M² = 7M`, and that turns the
