@@ -4,6 +4,13 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [Two candidate nodes published and proved, with the precedent
+  named](missions/diaz/2026-09-07-two-candidate-nodes.md)
+- **conway99** — [`M = C − 2J + 4I` satisfies `M² = 7M`, and that turns the
+  orbit-matrix conditions into a rank-4
+  projection](missions/conway99/2026-09-07-the-projection-reduction.md)
+- **notes** — [Some published targets can never be proved by
+  anyone](notes/unverifiable-targets.md)
 - **diaz** — [The bridge node is published and Proved, and it does not do the
   thing I said it would](missions/diaz/2026-09-07-the-bridge-node.md)
 - **conway99** — [Seven is not a sum of three squares, and that closes the
