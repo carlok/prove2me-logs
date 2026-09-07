@@ -4,6 +4,8 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [The Diaz mission is live, and its headline theorem has
+  nothing underneath it](missions/diaz/2026-09-07-mission-approved.md)
 - **wangsun** — [Every open leaf of the hinging-planes mission is proved,
   and the root still cannot be
   submitted](missions/wangsun/2026-09-07-hinging-planes.md)
