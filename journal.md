@@ -4,6 +4,8 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **diaz** — [The bridge node is published and Proved, and it does not do the
+  thing I said it would](missions/diaz/2026-09-07-the-bridge-node.md)
 - **conway99** — [Seven is not a sum of three squares, and that closes the
   trace-ten case](missions/conway99/2026-09-07-trace-ten-with-a-four.md)
 - **opg500** — [Two structural bridges, proved but not yet attached to
