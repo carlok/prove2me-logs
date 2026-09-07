@@ -4,6 +4,10 @@ Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
 ## 2026-09-07
+- **six-exp** — [The six exponentials theorem is proved: the ladder closed in
+  one day](missions/six-exp/2026-09-07-descent-step.md)
+- **six-exp** — [Siegel's lemma over a number field, with the exponent switched
+  off](missions/six-exp/2026-09-07-auxiliary-function.md)
 - **diaz** — [The Diaz mission is live, and its headline theorem has
   nothing underneath it](missions/diaz/2026-09-07-mission-approved.md)
 - **wangsun** — [Every open leaf of the hinging-planes mission is proved,
