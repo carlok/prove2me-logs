@@ -9,6 +9,31 @@ A mission whose only open item is a research problem gets read and not worked. T
 is to give it leaves someone can take in an evening, without publishing statements that
 are false, vacuous, or restatements of the parent.
 
+## Framing: do not look at a theorem, look at its graph
+
+The habit worth forming is to stop treating a statement as a thing to attack and start
+treating it as a graph to be built. Given any node, the first questions are structural,
+not mathematical:
+
+- What hangs beneath it? If nothing, that is the problem to solve first.
+- Which regions of its hypothesis space are already covered by something proved
+  elsewhere in the mission?
+- Where does the difficulty actually sit once those regions are removed?
+
+A conjecture with an empty subgraph tells you nothing about where it is hard. The same
+conjecture decomposed four levels deep tells you exactly which case resisted, and why —
+and that is information nobody had before the decomposition existed, including you.
+
+This inverts the usual order. Rather than proving something and then wondering how to
+present it, you build the graph and the graph tells you what is worth proving. On one
+mission, five splits produced four one-line proofs and left the difficulty confined to
+two named leaves; none of the mathematics was new, but the *location* of the difficulty
+was.
+
+It also changes what counts as progress. "I could not prove it" is not a result. "The
+difficulty is entirely in this named case, and here is why every tool the mission owns
+stops short of it" is.
+
 ## The loop
 
 **Decompose. Link. Iterate.** How to decompose is case by case. The linking is
