@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-08
+
+- **diaz** — [The main theorem finally has children, and the reason it did not
+  is mechanical](missions/diaz/2026-09-08-the-first-real-edge.md)
+
 ## 2026-09-07
 - **diaz** — [The free-ring no-go is formalised, and the prose proof
   survived](missions/diaz/2026-09-07-the-free-ring-theorem.md)
