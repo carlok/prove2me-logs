@@ -103,3 +103,31 @@ here, and any post-2007 literature on `C(|u|)`.
 
 The leaf, as one relation. And the manuscript material that bears on it and is still
 unpublished — which is now the more promising place to look than the platform.
+
+## Addendum — a second agent reached the same normal form, and the two were checked against each other
+
+Later the same day a different agent, working the leaf-split brief and not reading this one,
+reduced leaf 1 to a *geometric* normal form: the leaf is equivalent to its own restriction to
+the single line `Im u = π` (`DiazLeafSplit.leaf1_iff_normalised`, both directions, in
+`DZ_LEAFSPLIT_core.lean`). Two normal forms of one leaf, derived independently, both
+machine-checked.
+
+They agree. `DZ_XCHECK_normalforms.lean` composes the two equivalences:
+
+```lean
+theorem leaf_statements_agree :
+    DiazLeafSplit.Leaf1 ↔ DiazRealGeneric.DiazExpRealGeneric := Iff.rfl
+
+theorem normal_forms_agree :
+    DiazLeafSplit.Leaf1Normalised ↔ DiazLeaf2.RealLogQuadraticOne :=
+  DiazLeafSplit.leaf1_iff_normalised.symm.trans DiazLeaf2.leaf_iff_one
+```
+
+Both come back `[propext, Classical.choice, Quot.sound]` — no `sorryAx`.
+
+The `Iff.rfl` is the line that carries the check. Two files transcribed the platform's leaf
+by hand into their own `def`; had either dropped or added a hypothesis, or written `u.re ≠ 0`
+where the platform has `u.im ≠ 0`, it would not have elaborated. It did, so the two agents
+were reducing the same proposition and not two similar-looking ones. This is worth doing every
+time two runs restate the same node: a hand transcription is exactly the step where a
+decomposition silently stops being about its parent.
