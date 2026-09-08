@@ -82,3 +82,38 @@ The node should stop being described as a formalisation target someone might pic
 **citation boundary**: a theorem we are entitled to use with attribution, whose formalisation
 is a multi-year project nobody on this mission should start. That is a different thing to tell
 a contributor, and the description should say it.
+
+## Which of this is about Prove2Me, and which is not
+
+**Prove2Me-specific:** the *reframe*. A node that cannot be proved is not a broken node on this
+platform — it is a citation boundary, and saying so in its description is the difference
+between an honest dependency and a trap laid for the next contributor. The node has been
+rewritten accordingly.
+
+Everything else generalises to handing any task to any outside model.
+
+**Give it ground truth, and require it to use it.** The single rule that made this output
+auditable was: every declaration name must be confirmed by a `#check` in a file that builds,
+and anything unconfirmable must be marked unverified. It caught three wrong namespace guesses
+that would otherwise have shipped as confident facts. The general form is: give the model the
+compiler, the test runner, the real API — and make verification a requirement of the
+deliverable, not a suggestion. A model that cannot check itself produces prose that is
+indistinguishable from a model that can, right up until you act on it.
+
+**A scoping pass measures the library, not your project.** It ranked full Hermite–Lindemann as
+substantial future work; we have had it Proved for days. It was not wrong — it was asked about
+Mathlib, and answered about Mathlib. Anything you have built on top of your dependencies is
+invisible to an outside pass and has to be subtracted by hand afterwards. This is the failure
+mode to expect from every outsourced audit, dependency review, or "what's missing" report.
+
+**Isolate the workspace, share the expensive artifact.** Its own Lake project, its own build
+output, `.lake/packages` symlinked to the existing Mathlib. 24K of new files, no rebuild, and
+no way to collide with our tree. The same trick applies to `node_modules`, a Docker layer
+cache, a model checkout — anything big, shared, and read-only in practice. The one live risk is
+that a symlink makes destructive commands reach further than the sandbox suggests, which is why
+"do not run `lake update` or `lake exe cache get`" was a stated rule and not an assumption.
+
+**The rules that produced the good behaviour were negative ones.** Do not reconstruct a paper
+you could not read. Do not cite a name you did not check. Do not present a `sorry` as progress.
+The model followed all three, and following the first cost it the most interesting section it
+could have written. Refusals are what made the rest of the document worth reading.
