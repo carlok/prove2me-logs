@@ -20,14 +20,47 @@ Open leaves hang off a theorem, not a mission: `GET
 mission whose children live in another Mathlib revision can report zero
 open leaves while still being open.
 
-`GET /theorems?q=...` is unreliable. It times out server-side on some
-terms and silently returns unrelated recent rows on others. Paging
-`?status=Open&limit=200&offset=N` and filtering locally is the only
-dependable route.
+**Corrected 2026-09-08.** This note previously said `q=` was unreliable and
+that walking the full catalogue was the only dependable route. That was
+wrong, and it propagated into every agent brief for a week. `q=` works:
+five terms tried, each answered in under four seconds, with
+`q=zzz_nonexistent_term` returning zero rows rather than noise. What is
+silently ignored is **`search=`** — `search=leaf_iff` returns 200
+unfiltered rows, one of which happens to match, which is exactly the
+"unrelated recent rows" symptom recorded here under the wrong parameter
+name. The catalogue is now 62 470 rows, so the advice to page through it
+had become unusable as well as unnecessary.
+
+Two real limits on `q=`. It matches text beyond the name — `q=exp` gives
+200 rows of which 32 match by name — so the result is a *superset* and
+you still filter locally on `theorem_name`. And it pages: a row count
+equal to your `limit` means there is more, so walk `offset`.
 
 Definitions come back from `/theorems/<id>` with `status: "Definition"`
 and their Lean source in a `definition` field. There is no `/definitions`
 endpoint.
+
+## Two kinds of edge, and only one comes from the preamble
+
+`GET /theorems/<id>/graph` returns edges of two kinds and they mean
+different things.
+
+`structural` edges run *Definition → theorem* and are fixed by the node's
+declared **preamble**. A node whose preamble is a bare `import Mathlib`
+can never have one, no matter how much it proves or how much cites it.
+
+`sketch` edges are what record a proof's actual imports, and they run in
+two hops: `cited theorem → submission → proved theorem`. The middle
+vertex is a submission id and is not in the `nodes` array, so an edge
+list read naively shows half the arrows pointing at unknowns. Join them
+through the submission to recover `cited → proved`. They form on
+`ACCEPTED` submissions, not only on `SKETCH_ACCEPTED` ones.
+
+Filtering to `structural` therefore reports well-connected nodes as
+orphans. A pass over nine freshly proved nodes did exactly that,
+concluded all nine were isolated, and was about to write it down as a
+platform limitation; seven of the nine were attached, one of them three
+deep.
 
 ## Verify names against the live API before acting on them
 

@@ -251,6 +251,22 @@ split possible.
   error: `unexpected token 'open'; expected 'lemma'`. Use `--`.
 - `Failed to compile theorem module` is deterministic — fix the file. `Verification timed
   out` on a large file is often contention — resubmit alone, once.
+- **Find nodes with `q=`, not `search=`.** `GET /theorems?q=<fragment>&limit=200` really
+  filters, and an empty result really means nothing matched. `search=` is **silently
+  ignored** and returns the unfiltered catalogue — 62 000+ rows — so a `search=` query
+  proves nothing either way. Two caveats on `q=`: it matches text beyond the name, so the
+  rows it returns are a *superset* of the name matches — filter locally on `theorem_name`;
+  and it pages, so if the row count equals your `limit`, walk `offset`. A tag query is
+  partial in a different way: it can return one namespace and miss another belonging to the
+  same work. Two `q=` calls, one per namespace, are the reliable duplicate check.
+- **Two kinds of edge, and only one comes from the preamble.** `structural` edges run
+  Definition → theorem and are fixed by the node's `preamble`, so a node whose preamble is a
+  bare `import Mathlib` can never have one and will *look* isolated. What records a proof's
+  imports is the `sketch` chain `cited theorem → submission → proved theorem`, and it forms
+  on `ACCEPTED` as well as `SKETCH_ACCEPTED`. Filtering edges to `structural` will tell you a
+  well-connected node is an orphan.
+- A theorem row carries `created_by` and `created_by_username`. Check them before assuming a
+  node is yours — on an active mission it may not be.
 
 ## Before publishing anything
 

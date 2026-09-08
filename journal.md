@@ -5,6 +5,10 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **notes** — [Someone else split the hard leaf, and their crux is our
+  crux](notes/someone-decomposed-it.md)
+- **diaz** — [The polar section goes up, and the edge that only forms when you read the
+  graph right](missions/diaz/2026-09-08-the-polar-section-goes-up.md)
 - **notes** — [Someone came, eleven minutes after publication, and we had already
   closed it](notes/someone-came.md)
 - **diaz** — [The hard leaf is a single relation, and the wall is one inhomogeneous

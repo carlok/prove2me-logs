@@ -26,13 +26,18 @@ Base URL `https://prove2.me/api/v1`.
 | `GET /submissions/<id>/solution` | `content` — the accepted Lean source |
 | `GET /theorems/<uuid>/graph` | `nodes` and `edges` |
 | `GET /theorems?tags=<tag>&limit=300` | catalogue slice by tag |
+| `GET /theorems?q=<fragment>&limit=200` | catalogue slice by name fragment |
+
+A theorem row also carries `created_by` and `created_by_username`, which is how to tell
+whose node a given statement is.
 
 Reference user: `carlok`, uuid `fca9fd8a-84f4-46ca-8845-a4a2b665381d`.
 
 ### Two API traps, both confirmed the hard way
 
-- **`search=` is silently ignored.** It returns the unfiltered catalogue, so a name search
-  looks empty and means nothing. Never filter by name server-side.
+- **Filter names with `q=`, not `search=`.** `GET /theorems?q=<fragment>&limit=200` works.
+  **`search=` is silently ignored** and returns the unfiltered catalogue — 62 000+ rows —
+  so a `search=` query looks empty and means nothing.
 - **A tag query does not see every family.** `tags=diaz-modulus-lean` returns the `Diaz.*`
   nodes and *not* the `DiazModulus.*` ones, though both belong to the same work. Any
   completeness claim must be checked against a full catalogue page plus a client-side name

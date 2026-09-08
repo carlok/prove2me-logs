@@ -90,6 +90,12 @@ approachable.
 So the realistic goal is not help on the hard part. It is a **visible gradient**: something
 takeable now, something takeable with effort, and a plain statement of why the top is hard.
 
+## Follow-up
+
+Six hours later a second stranger did something stronger: published a new open node and
+attached it as a reduction of the mission's hard leaf, in forty seconds, and left it open.
+[Someone else split the hard leaf](someone-decomposed-it.md).
+
 ## What is not claimed
 
 One contributor, one node, one data point. Nothing here shows that harder leaves attract
