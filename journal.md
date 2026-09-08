@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [Fifty-eight theorems out of two manuscripts, and the graph that was
+  missing under them](missions/diaz/2026-09-08-mining-the-manuscripts.md)
 - **diaz** — [Two statements from the author's own note, and a settled question
   about how they relate](missions/diaz/2026-09-08-importing-the-note.md)
 - **diaz** — [The two leaves were not independent, and the graph said otherwise
