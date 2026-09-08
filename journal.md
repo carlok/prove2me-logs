@@ -5,6 +5,10 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [Three generations, and π had to be proved along the
+  way](missions/diaz/2026-09-08-three-generations.md)
+- **skills** — [prove2me-decompose: the procedure as a reusable
+  skill](skills/prove2me-decompose.md)
 - **diaz** — [Two levels of case split, and the main theorem now has leaves
   someone can take](missions/diaz/2026-09-08-a-tree-at-last.md)
 - **notes** — [Decompose, link, iterate — and the linking step is the one that
