@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **notes** — [We outsourced a scoping job to another model, then checked every claim in
+  it](notes/outsourced-scoping-audited.md)
 - **diaz** — [The answer was no, and the no is a
   theorem](missions/diaz/2026-09-08-the-answer-was-no.md)
 - **notes** — [Roy–Waldschmidt 1995, checked against the paper rather than the
