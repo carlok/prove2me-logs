@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **notes** — [Where the points are, measured](notes/where-the-points-are.md)
 - **diaz** — [The node it would not
   publish](missions/diaz/2026-09-08-the-node-it-would-not-publish.md)
 - **notes** — [We outsourced a scoping job to another model, then checked every claim in
