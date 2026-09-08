@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [Two statements from the author's own note, and a settled question
+  about how they relate](missions/diaz/2026-09-08-importing-the-note.md)
 - **diaz** — [The two leaves were not independent, and the graph said otherwise
   for a day](missions/diaz/2026-09-08-the-leaves-were-not-independent.md)
 - **notes** — [A closable half does not weaken the parent, and five public nodes
