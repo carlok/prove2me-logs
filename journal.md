@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [Four generations, and the last split leaves the difficulty with
+  nowhere to hide](missions/diaz/2026-09-08-four-generations.md)
 - **diaz** — [Three generations, and π had to be proved along the
   way](missions/diaz/2026-09-08-three-generations.md)
 - **skills** — [prove2me-decompose: the procedure as a reusable
