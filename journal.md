@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [The run that mostly declined to
+  publish](missions/diaz/2026-09-08-the-run-that-mostly-declined-to-publish.md)
 - **notes** — [Someone else split the hard leaf, and their crux is our
   crux](notes/someone-decomposed-it.md)
 - **diaz** — [The polar section goes up, and the edge that only forms when you read the
