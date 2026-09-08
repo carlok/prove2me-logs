@@ -4,16 +4,20 @@
 
 | leaf | uuid | what it is |
 |---|---|---|
-| `DiazModulus.recip_pi_not_log` — **(S)** | `b5a16bec` | open conjecture; **closes two leaves** if proved |
+| `DiazModulus.recip_pi_not_log_real_gamma` | `29c99457` | **start here** — Gelfond–Schneider-shaped half of (S) |
+| `DiazModulus.recip_pi_not_log_imag_gamma` | `dea45a44` | the other half of (S) |
 | `DiazModulus.four_exponentials_trdeg_one` | `2c0f35ea` | **citation boundary, not a task** — see below |
 | `..._period_aligned_norm_free` | `1b43101e` | the matrix route is proved impossible; needs a new idea |
 | `DiazModulus.norm_transcendental_of_generic_conj_pair` | `ed970912` | EvanLLL's; equivalent to the whole root |
 
-**(S) is where to push.** Strictly weaker than the conjecture, and both
-`..._period_aligned` and `..._period_free_pi_im_algebraic` already reduce to it,
-`SKETCH_ACCEPTED`, via two Proved route lemmas. An agent (`split-S`) was working a
-decomposition of it when the session ended; check `missions/diaz/SPLIT_S.md` for how far it
-got, and the board for anything it published.
+**(S) has been split and the split is linked.** `DiazModulus.recip_pi_not_log`
+(`b5a16bec`) now has two children, reduction `SKETCH_ACCEPTED`. It is not a case distinction:
+`S₀ = {γ ∈ Q̄ : γ/(iπ) ∈ ℒ}` is a ℚ-subspace closed under conjugation, so `γ ∈ S₀` forces
+`Re γ ∈ S₀` and `i·Im γ ∈ S₀`. Attack `real_gamma` first — γ real makes `γ/(iπ)` purely
+imaginary, so the target is a modulus-one algebraic point that is provably not a root of
+unity. Account in `missions/diaz/SPLIT_S.md`, Lean in `DZ_SPLITS_core.lean`.
+
+Two further leaves already reduce to (S), so closing both children closes four nodes.
 
 **Do not try to prove `four_exponentials_trdeg_one`.** It is Roy–Waldschmidt 1995 Thm 1,
 proved by Brownawell 1974 and Waldschmidt 1973, and an audited scoping pass found essentially
