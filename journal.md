@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [One node, two leaves, and a crux that turned out to be the whole
+  conjecture](missions/diaz/2026-09-08-one-node-two-leaves.md)
 - **diaz** — [The run that mostly declined to
   publish](missions/diaz/2026-09-08-the-run-that-mostly-declined-to-publish.md)
 - **notes** — [Someone else split the hard leaf, and their crux is our

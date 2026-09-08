@@ -1,47 +1,45 @@
-# Open threads at 2026-09-08 12:20, session stopped for token budget
+# Open threads at 2026-09-08 14:35
 
-Four agents ran as 2+2 (Diaz / non-Diaz). One reported in full; three were stopped
-mid-flight. Nothing is lost, but three things need a look next session.
+## The frontier is four leaves
 
-## 1. A submission left PENDING
+```
+DiazModulus.recip_pi_not_log                                   b5a16bec  (S) — ours, new
+DiazModulus.norm_transcendental_of_generic_conj_pair           ed970912  EvanLLL's
+..._period_aligned_norm_rat_mult                               561efd5c  looks closable
+..._period_aligned_norm_free                                   1b43101e
+```
 
-`board-open` split **Collapsible Cubics** (`CollapsibleCubics.cubic_collapsible`,
-`6c13f615-ee99-4c9e-b081-79ac6e26168c`) into two published children and submitted the
-reduction against the parent at 12:18:48. It was stopped while that submission was still
-`PENDING`. The verifier runs server-side, so the verdict resolves without us.
+**(S) is the one to push.** It closes `..._period_aligned` and
+`..._period_free_pi_im_algebraic` outright, both reductions already `SKETCH_ACCEPTED`, and
+it is strictly less than the conjecture. The crux is equivalent to the root, so it is not
+easier than the whole problem.
 
-- `CollapsibleCubics.cubic_collapsible_of_normForm_repr` (Open, 12:16:04)
-- `CollapsibleCubics.cubic_collapsible_of_not_normForm_repr` (Open, 12:16:00)
+**`561efd5c` looks closable via `Diaz.four_exp_trdeg_one`** — the aligned class has
+transcendence degree one, which is the regime where 4EC is known. **Do not close it until
+someone checks `Diaz.four_exp_trdeg_one` against Roy–Waldschmidt 1995.** Its own description
+says the statement was transcribed from `p20_diaz.tex` and never verified against the source.
 
-**Check the verdict first thing.** If it did not land, the two children are orphans on a
-public board — published, unlinked, and looking like a contribution without being one.
-The agent wrote no account file, so if the reduction failed the argument has to be redone.
+## Held open overnight, proofs already written
 
-## 2. Leaf 2 was split and the link held
+| node | uuid | proof |
+|---|---|---|
+| `Diaz.pair_dichotomy_exclusive` | `99e66042` | `DZ_MINE_check2.lean` |
+| `Diaz.conj_combination_off_rays` | `926f2540` | `DZ_MINE_check.lean` |
+| `CollapsibleCubics.cubic_collapsible_of_not_normForm_repr` | `faff93b8` | — |
 
-`diaz-leaf2` published two children of
-`DiazModulus.diaz_of_exp_not_real_irrational_angle_period_free`
-(`5c573fdf-0df3-42af-9d7b-75e39a7c1f6b`) and its reduction came back `SKETCH_ACCEPTED` at
-12:14:48, before the stop. That work is complete and linked.
+`cm` proved the sibling `..._of_normForm_repr` at 12:38, twenty-two minutes after we
+published it and left it alone. First time the hold rule produced a contribution.
 
-- `..._period_free_pi_im_algebraic` (Open, 12:13:36)
-- `..._period_free_pi_im_transcendental` (Open, 12:13:35)
+Close whatever is unclaimed tomorrow.
 
-No account file was written. The split is on the graph and readable from the submission.
+## Territory
 
-## 3. Two closable halves are being held overnight
+`EvanLLL` — leaf 1 and its crux, plus the `BertsekasDP.*` mission.
+`quesswho` — created and actively works Collapsible Cubics; we split its root.
+`cm`, `curiyu` — solvers, no territory.
 
-From the run that did report, both proved locally with clean axioms and published **Open**
-on purpose under the cadence rule:
+## Rule that needs fixing in the next brief
 
-- `Diaz.pair_dichotomy_exclusive` — `99e66042-79f9-4b5d-a081-f97c074c1023`
-- `Diaz.conj_combination_off_rays` — `926f2540-2d5b-4750-893b-093edbd4d06a`
-
-Proofs are in `missions/diaz/lean/Solutions/DZ_MINE_check.lean` and `DZ_MINE_check2.lean`.
-To close: rename to `theorem solution`, prefix `open Diaz in`, submit. **Close them tomorrow
-if nobody has taken them.** The four children in §1 and §2 are held under the same rule.
-
-## Territory, still standing
-
-`EvanLLL` owns `DiazModulus.diaz_of_exp_real_generic` (leaf 1) and the `BertsekasDP.*`
-mission. Stay off both.
+When picking a mission to decompose, check its node count and recent activity, not just
+whether the root says Open. Collapsible Cubics had 13 nodes and an author working it ninety
+minutes before our agent arrived; the brief told the agent it was unworked.
