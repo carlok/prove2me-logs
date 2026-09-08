@@ -5,6 +5,10 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [Two levels of case split, and the main theorem now has leaves
+  someone can take](missions/diaz/2026-09-08-a-tree-at-last.md)
+- **notes** — [Decompose, link, iterate — and the linking step is the one that
+  gets skipped](notes/decompose-link-iterate.md)
 - **diaz** — [The main theorem finally has children, and the reason it did not
   is mechanical](missions/diaz/2026-09-08-the-first-real-edge.md)
 
