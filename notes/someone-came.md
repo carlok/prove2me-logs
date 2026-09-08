@@ -42,6 +42,25 @@ recommendation to hold. We published and closed anyway, because closing felt lik
 A node published and proved by its author within six minutes is not an entry point. It is
 an announcement.
 
+## The scale of what we consumed
+
+Four closable halves were produced and self-closed that morning, inside forty-five minutes:
+
+```
+diaz_of_exp_real_self_real        published 04:08:05   self-proved 04:11:02   (3 min)
+diaz_of_exp_eq_one                published 04:26:25   self-proved 04:32:39   (6 min)
+diaz_of_exp_real_pure_imaginary   published 04:41:18   self-proved 04:44:23   (3 min)
+diaz_of_exp_not_real_on_axes      published 04:50:46   self-proved 04:53:35   (3 min)
+```
+
+The contributor caught one only because they happened to be looking during a six-minute
+window. Three others opened and shut without anyone having a chance.
+
+The supply was never the problem. Every honest split produces exactly one closable half —
+that is what makes a split worth publishing. Manufacturing small nodes to attract help
+would be worse than useless, since nodes are permanent and a board padded with easy
+statements that advance nothing becomes busywork.
+
 ## The rule that follows
 
 Written into `skills/prove2me-decompose.md`:
@@ -51,8 +70,25 @@ Written into `skills/prove2me-decompose.md`:
 > it open is what actually recruits. You cannot have both, and the default should be to
 > leave at least one closable leaf open at any time.
 >
-> If you do close your own, close it *early* — before publishing anything else that would
-> draw attention — so nobody starts work that is already finished.
+> Publish both halves of a split and do not prove the closable one for a set window; a day
+> is a reasonable default. Batch the publications — not for volume, for visibility, since a
+> frontier that moves all at once is discoverable and a trickle is not. After the window,
+> close what nobody took, so the mission does not look stalled.
+
+Adopted cadence: **batch out at the end of the day**, hold the closable halves overnight,
+close the unclaimed ones the next day.
+
+## The tension underneath
+
+What attracts help is what does not need help.
+
+The node taken was closable because its hypotheses were *contradictory* — a vacuous corner,
+not a small piece of the problem. The mission's genuinely open leaves are a degree-2
+relation in two logarithms and an open question of Waldschmidt's. No cadence makes those
+approachable.
+
+So the realistic goal is not help on the hard part. It is a **visible gradient**: something
+takeable now, something takeable with effort, and a plain statement of why the top is hard.
 
 ## What is not claimed
 

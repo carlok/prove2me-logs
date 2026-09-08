@@ -54,24 +54,54 @@ sign anything is wrong. Check with `GET /theorems/<parent>/graph` after every ge
 For generation *n+1*, the reduction goes against the **child**, not the root. The edge
 upward is already accepted.
 
-### Do not close your own entry points immediately
+### Cadence: batch the publication, hold the closable half
 
 A node published and proved by its author within minutes is not an entry point. It is an
 announcement.
 
-Measured case: a leaf was published at 04:26, its author proved it at 04:32, and a
-contributor who had created their account 37 minutes earlier proved it independently at
-04:37. Eleven minutes from publication to an outside proof — the decomposition worked
-exactly as intended — and the contributor got nothing, because the node had been closed
-five minutes before they finished.
+Measured, on one mission in forty-five minutes:
 
-So when a split produces a genuinely closable half, decide deliberately whether to close
-it. Closing it yourself makes the graph look complete and gives the mission progress.
-Leaving it open is what actually recruits. **You cannot have both, and the default should
-be to leave at least one closable leaf open at any time.**
+```
+diaz_of_exp_real_self_real        published 04:08:05   self-proved 04:11:02   (3 min)
+diaz_of_exp_eq_one                published 04:26:25   self-proved 04:32:39   (6 min)
+diaz_of_exp_real_pure_imaginary   published 04:41:18   self-proved 04:44:23   (3 min)
+diaz_of_exp_not_real_on_axes      published 04:50:46   self-proved 04:53:35   (3 min)
+```
 
-If you do close your own, close it *early* — before publishing anything else that would
-draw attention — so nobody starts work that is already finished.
+Four entry points produced and all four consumed by their author. A contributor who had
+signed up thirty-seven minutes before the second node existed found it eleven minutes after
+publication and proved it independently — five minutes too late. The decomposition worked;
+the cadence wasted it.
+
+**You do not need to manufacture small nodes.** Every honest split produces exactly one
+closable half; that is what makes a split worth publishing at all. The supply is already
+there. Padding a board with easy statements that advance nothing is worse than useless,
+because nodes are permanent.
+
+The rule:
+
+1. **Publish both halves of a split, and do not prove the closable one for a set window.**
+   A day is a reasonable default.
+2. **Batch the publications.** Not for volume — for visibility. A frontier that moves all
+   at once is discoverable; a trickle is not. End of a working session is a natural
+   boundary. The audience is global, so do not agonise over the hour; consistency beats
+   timing.
+3. **After the window, close what nobody took**, so the mission does not look stalled.
+4. **Keep at least one closable leaf open at all times.**
+
+### The tension this manages but cannot remove
+
+What attracts help is what does not need help.
+
+The node the outside contributor took was closable because its hypotheses were
+*contradictory* — a vacuous corner, not a small piece of the problem. The same mission's
+genuinely open leaves were a degree-2 relation in two logarithms and an open question of
+Waldschmidt's. No cadence makes those approachable.
+
+So the goal is not "get help on the hard part". It is a **visible gradient**: something
+takeable now, something takeable with effort, and a plain statement of why the top is hard.
+That is what makes a mission worth returning to. Write the gradient onto the nodes — a
+contributor who can see where a leaf sits can choose; one who cannot will bounce.
 
 ### Nodes that are useful but are not children
 
