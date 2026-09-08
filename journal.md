@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [A leaf that was never a
+  difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
 - **notes** — [Where the points are, measured](notes/where-the-points-are.md)
 - **diaz** — [The node it would not
   publish](missions/diaz/2026-09-08-the-node-it-would-not-publish.md)
