@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [The hard leaf is a single relation, and the wall is one inhomogeneous
+  term](missions/diaz/2026-09-08-the-leaf-is-one-relation.md)
 - **diaz** — [Fifty-eight theorems out of two manuscripts, and the graph that was
   missing under them](missions/diaz/2026-09-08-mining-the-manuscripts.md)
 - **diaz** — [Two statements from the author's own note, and a settled question
