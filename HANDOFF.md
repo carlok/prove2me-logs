@@ -1,45 +1,68 @@
-# Open threads at 2026-09-08 14:35
+# Open threads at 2026-09-08 17:10 UTC
 
-## The frontier is four leaves
+## The frontier — four leaves, four different kinds of thing
 
-```
-DiazModulus.recip_pi_not_log                                   b5a16bec  (S) — ours, new
-DiazModulus.norm_transcendental_of_generic_conj_pair           ed970912  EvanLLL's
-..._period_aligned_norm_rat_mult                               561efd5c  looks closable
-..._period_aligned_norm_free                                   1b43101e
-```
+| leaf | uuid | what it is |
+|---|---|---|
+| `DiazModulus.recip_pi_not_log` — **(S)** | `b5a16bec` | open conjecture; **closes two leaves** if proved |
+| `DiazModulus.four_exponentials_trdeg_one` | `2c0f35ea` | **citation boundary, not a task** — see below |
+| `..._period_aligned_norm_free` | `1b43101e` | the matrix route is proved impossible; needs a new idea |
+| `DiazModulus.norm_transcendental_of_generic_conj_pair` | `ed970912` | EvanLLL's; equivalent to the whole root |
 
-**(S) is the one to push.** It closes `..._period_aligned` and
-`..._period_free_pi_im_algebraic` outright, both reductions already `SKETCH_ACCEPTED`, and
-it is strictly less than the conjecture. The crux is equivalent to the root, so it is not
-easier than the whole problem.
+**(S) is where to push.** Strictly weaker than the conjecture, and both
+`..._period_aligned` and `..._period_free_pi_im_algebraic` already reduce to it,
+`SKETCH_ACCEPTED`, via two Proved route lemmas. An agent (`split-S`) was working a
+decomposition of it when the session ended; check `missions/diaz/SPLIT_S.md` for how far it
+got, and the board for anything it published.
 
-**`561efd5c` looks closable via `Diaz.four_exp_trdeg_one`** — the aligned class has
-transcendence degree one, which is the regime where 4EC is known. **Do not close it until
-someone checks `Diaz.four_exp_trdeg_one` against Roy–Waldschmidt 1995.** Its own description
-says the statement was transcribed from `p20_diaz.tex` and never verified against the source.
+**Do not try to prove `four_exponentials_trdeg_one`.** It is Roy–Waldschmidt 1995 Thm 1,
+proved by Brownawell 1974 and Waldschmidt 1973, and an audited scoping pass found essentially
+none of the machinery in Mathlib — the blocker is Philippon's zero estimate, with Wirsing's
+theorem second. Its description now says all this. Six exponentials does **not** imply it
+(3×2 versus 2×2 plus a trdeg hypothesis). The source is held at
+`missions/diaz/sources/roy-waldschmidt-1995-quadratic-relations.pdf`.
 
-## Held open overnight, proofs already written
+## Held open overnight — close tomorrow if unclaimed
 
-| node | uuid | proof |
+| node | uuid | proof sitting in |
 |---|---|---|
 | `Diaz.pair_dichotomy_exclusive` | `99e66042` | `DZ_MINE_check2.lean` |
 | `Diaz.conj_combination_off_rays` | `926f2540` | `DZ_MINE_check.lean` |
 | `CollapsibleCubics.cubic_collapsible_of_not_normForm_repr` | `faff93b8` | — |
 
-`cm` proved the sibling `..._of_normForm_repr` at 12:38, twenty-two minutes after we
-published it and left it alone. First time the hold rule produced a contribution.
+`DiazModulus.aligned_norm_free_no_rational_log_matrix` (`931b8b88`) is also open and provable
+today from `DZ_FREE_*.lean`, held under the same rule.
 
-Close whatever is unclaimed tomorrow.
+None had a submission as of 17:07.
 
-## Territory
+## Contributors, and their ground
 
-`EvanLLL` — leaf 1 and its crux, plus the `BertsekasDP.*` mission.
-`quesswho` — created and actively works Collapsible Cubics; we split its root.
-`cm`, `curiyu` — solvers, no territory.
+- **`EvanLLL`** — leaf 1 and its crux, plus the `BertsekasDP.*` mission. Off limits.
+- **`quesswho`** — created and actively works Collapsible Cubics; still publishing there
+  (`pi_div_psi_le_iff_exists_theta`, Open, 14:55). We split their root; tread carefully.
+- **`cm`** — closed `CollapsibleCubics.cubic_collapsible_of_normForm_repr` at 12:38, twenty-two
+  minutes after we published it and left it alone. First time the hold rule produced a
+  contribution.
+- **`curiyu`** — closed `diaz_of_exp_eq_one` this morning, five minutes after we had already
+  self-closed it. The reason the hold rule exists.
 
-## Rule that needs fixing in the next brief
+## Two claims carried forward unverified
 
-When picking a mission to decompose, check its node count and recent activity, not just
-whether the root says Open. Collapsible Cubics had 13 nodes and an author working it ninety
-minutes before our agent arrived; the brief told the agent it was unworked.
+Neither is depended on by anything formalised; both were written from memory with no
+literature access. Do not quote either without checking.
+
+1. "Six exponentials = the matrix rank statement for `dl > d + l`" (free-half run).
+2. "There is no known deduction of the transcendence-degree-one four exponentials from six
+   exponentials" (outsourced scoping pass).
+
+## Process notes worth keeping
+
+- When picking a mission to decompose, check its **node count and recent activity**, not just
+  whether the root says Open. Collapsible Cubics had 13 nodes and an active author ninety
+  minutes before our agent arrived; the brief called it unworked.
+- Agents must write their account file **as they go**. Three were stopped mid-run today and
+  two left nothing recoverable.
+- Twice today an argument assumed independence the configuration itself denies — `π` as a
+  transcendence generator inside an algebra not containing it, and `1, t², t/π, tπ, π²` on a
+  class where the quartic relation is exactly a dependence among them. Both conclusions
+  survived; both derivations did not. Expect a third.
