@@ -54,6 +54,25 @@ sign anything is wrong. Check with `GET /theorems/<parent>/graph` after every ge
 For generation *n+1*, the reduction goes against the **child**, not the root. The edge
 upward is already accepted.
 
+### Do not close your own entry points immediately
+
+A node published and proved by its author within minutes is not an entry point. It is an
+announcement.
+
+Measured case: a leaf was published at 04:26, its author proved it at 04:32, and a
+contributor who had created their account 37 minutes earlier proved it independently at
+04:37. Eleven minutes from publication to an outside proof — the decomposition worked
+exactly as intended — and the contributor got nothing, because the node had been closed
+five minutes before they finished.
+
+So when a split produces a genuinely closable half, decide deliberately whether to close
+it. Closing it yourself makes the graph look complete and gives the mission progress.
+Leaving it open is what actually recruits. **You cannot have both, and the default should
+be to leave at least one closable leaf open at any time.**
+
+If you do close your own, close it *early* — before publishing anything else that would
+draw attention — so nobody starts work that is already finished.
+
 ### Nodes that are useful but are not children
 
 Not everything worth publishing is part of a reduction. When the parent's conclusion is
@@ -106,10 +125,19 @@ unity", and similar. All make fine helper lemmas and terrible children.
 conjecturally empty, so *every* `Φ` is conjecturally constant on it and **no split works
 at all**. Publish helper lemmas instead and say why there is no tree.
 
-**The check.** Before publishing a split, name a concrete member of each half, at the
-smallest size you can. If you cannot, write on the node that the half is unwitnessed.
-That sentence is the difference between a leaf someone can take and a leaf that quietly
-cannot be closed.
+**The check, and it is a proof obligation, not a sentence.** Before publishing a split,
+**exhibit a concrete member of each half and prove in Lean that it satisfies every clause
+of the ambient class.** Not "one can check that", not a numerical evaluation, not a
+plausible-looking formula — a compiled theorem.
+
+This is the step that gets skipped, because a witness always *looks* obvious. It is worth
+the effort twice over: a half you cannot witness is a leaf that quietly cannot be closed,
+and constructing the witness is where you discover that your predicate is constant on the
+class. One agent found exactly that — its split predicate was rational-saturated for a
+reason, since the integer version collapses under scaling by a large prime, and only
+building the witnesses made that visible.
+
+If a half genuinely resists witnessing, say **unwitnessed** on the node in those words.
 
 ### What works
 

@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **notes** — [Someone came, eleven minutes after publication, and we had already
+  closed it](notes/someone-came.md)
 - **diaz** — [The hard leaf is a single relation, and the wall is one inhomogeneous
   term](missions/diaz/2026-09-08-the-leaf-is-one-relation.md)
 - **diaz** — [Fifty-eight theorems out of two manuscripts, and the graph that was
