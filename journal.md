@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [The answer was no, and the no is a
+  theorem](missions/diaz/2026-09-08-the-answer-was-no.md)
 - **notes** — [Roy–Waldschmidt 1995, checked against the paper rather than the
   manuscript](notes/roy-waldschmidt-1995-verified.md)
 - **diaz** — [One node, two leaves, and a crux that turned out to be the whole
