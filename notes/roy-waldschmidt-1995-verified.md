@@ -64,3 +64,39 @@ So the aligned child
 (`561efd5c-2eb5-4258-a55b-a7c035576bac`) is closable, and the clean route is to publish
 Roy–Waldschmidt Theorem 1 at `K = Q̄` as an attributed legacy node — which the mission's own
 policy now permits, since the policy's test is whether the source is held, and it is.
+
+## Follow-through, same day
+
+The verification changed the graph. `DiazModulus.four_exponentials_trdeg_one`
+(`2c0f35ea-b824-4ce3-a701-01b48dc27a97`) was published as the attributed legacy port — the
+statement at `K = Q̄`, unconditional, with `source` pointing at Waldschmidt's own copy rather
+than a paywalled DOI, and the body naming Roy–Waldschmidt for the statement and Brownawell
+1974 / Waldschmidt 1973 for the proof, as the paper itself does.
+
+`..._period_aligned_norm_rat_mult` then reduced to it: submission
+`e9a7f7d5-d00b-4272-9fac-b9da64be5dce`, `SKETCH_ACCEPTED`, two-hop edge present. The child no
+longer depends on a conjecture carried as `hMaster`. It depends on a 1973/74 theorem whose
+source is on disk. It is still Open, and that is correct — nobody has formalised Brownawell's
+or Waldschmidt's argument, and the platform's `Proved` means a Lean proof.
+
+**A correction to the brief that sent the agent there.** The brief said to take the
+transcendence basis as `{π}`. That cannot work: the statement's algebra is
+`Algebra.adjoin ℚ {l₁₁,l₁₂,l₂₁,l₂₂}`, and `π` need not lie in it — the four entries reach `π`
+only through `πi` and through `θ = β/π − rπ`. The generator that works is `x = πi = l₃/(2c)`,
+which is in the algebra because `c` is rational and non-zero. Nothing is lost: `π² = −x²`, and
+the quartic relation is even in `π`.
+
+The same slip is in `LEAF_ALIGNED.md` §2.4 and in the child's own description, both of which
+say "`t` is algebraic over `Q̄(π)`, so trdeg = 1". The formal object is a `ℚ`-algebra that does
+not contain `π`.
+
+No Mathlib gap: `Algebra.IsAlgebraic.trdeg_le_cardinalMk` at a singleton was enough, once the
+generator was right. The bridge lemma written for it, `trdeg_le_one_of_adjoin_singleton`,
+should be reusable for any future trdeg-one node here.
+
+## The next gap, now isolated
+
+The trdeg-one certificate uses only the **aligned** hypothesis, not the rational-multiple one,
+so it is available on the free sibling `..._period_aligned_norm_free`
+(`1b43101e-b00e-4168-9769-ddd07242b0c6`) too. What that half lacks is a **rational** `c`
+making the determinant vanish. That is the whole remaining gap on it, stated exactly.
