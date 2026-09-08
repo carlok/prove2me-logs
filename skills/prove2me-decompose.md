@@ -54,6 +54,20 @@ sign anything is wrong. Check with `GET /theorems/<parent>/graph` after every ge
 For generation *n+1*, the reduction goes against the **child**, not the root. The edge
 upward is already accepted.
 
+### Nodes that are useful but are not children
+
+Not everything worth publishing is part of a reduction. When the parent's conclusion is
+an existence claim, the most valuable publishable objects are usually **route lemmas** —
+"sufficient condition ⟹ conclusion" — and **model infrastructure**: the bridge between a
+mission's hand-rolled definitions and Mathlib's, universe descent, arithmetic
+side-conditions the prose asserts but nobody formalised.
+
+These do not sum to the parent and there is no reduction to submit for them. Publish them
+anyway, say on the node that they are not a decomposition, and expect them to be pulled
+into the graph later by whichever proof uses them. On a mission whose only open leaf is a
+research root, a proved route lemma is often worth more than a split: it is the thing a
+contributor can actually finish.
+
 ### Proving a node links its dependencies
 
 When step 3 lands, every `Theorems.Thm_*` the proof imports is pulled into the graph
@@ -65,17 +79,37 @@ that is information.
 
 ### What cannot work
 
-A conjecture asserting a set is empty — no counterexample exists — cannot be decomposed
-by necessary conditions on a counterexample.
+Write the parent as `∀ x ∈ C, P x` — `C` the **ambient class**, `P` the claim. A split is
+a predicate `Φ` on `C`. **The split is honest only if you can exhibit a member of
+`C ∩ Φ` and a member of `C ∩ ¬Φ`.**
 
-- `Φ` provably necessary ⟹ "no `u` with `Φ(u)` is a counterexample" is **equivalent** to
-  the parent. Nothing gained.
-- `Φ` not provably necessary ⟹ "every counterexample satisfies `Φ`" is **conjecturally
-  vacuous**, the set being empty if the conjecture holds. No easier.
+- `Φ` **provably constant** on `C` ⟹ one child is the parent, the other is trivial.
+  Nothing gained.
+- `Φ` **conjecturally constant** on `C` — you believe it never fails but cannot prove it
+  ⟹ one child is **conjecturally vacuous**. A contributor is asked to prove something
+  about a class nobody can exhibit a member of, and which they cannot close by proving
+  empty either, since that is the parent. No easier.
 
-Symmetries and closure properties of the counterexample set fall here. So do "the
-counterexample is not algebraic", "its exponential is not a root of unity", and similar.
-They make fine helper lemmas and terrible children.
+Two shapes of `Φ` are conjecturally constant almost by construction, and they are duals:
+
+- a **necessary condition for `x` to be a counterexample**, when `P` asserts emptiness;
+- a **sufficient condition for `P x`**, when `P` asserts existence.
+
+The second is the trap in existence problems. "`G` has a divisible 2-factor" implies `G`
+has a `P3`-factor, so the `¬Φ` child says "every graph for which the route fails has a
+`P3`-factor anyway" — conjecturally vacuous unless someone exhibits a graph where the
+route provably fails. Symmetries and closure properties of a counterexample set fall
+here. So do "the counterexample is not algebraic", "its exponential is not a root of
+unity", and similar. All make fine helper lemmas and terrible children.
+
+**The extreme case.** When the parent asserts that `C` itself is empty, `C` is
+conjecturally empty, so *every* `Φ` is conjecturally constant on it and **no split works
+at all**. Publish helper lemmas instead and say why there is no tree.
+
+**The check.** Before publishing a split, name a concrete member of each half, at the
+smallest size you can. If you cannot, write on the node that the half is unwitnessed.
+That sentence is the difference between a leaf someone can take and a leaf that quietly
+cannot be closed.
 
 ### What works
 
@@ -83,9 +117,48 @@ They make fine helper lemmas and terrible children.
 each is *strictly weaker*; together they are equivalent to the parent. The reduction is
 `by_cases` and carries no mathematical content, which is the point.
 
-**Prefer a split where one half is already closable.** That retires a settled region,
-leaves the sibling holding the actual content, and triggers the dependency-linking
-above. Look for a half that follows from nodes the mission already owns.
+**Prefer a split where one half is already closable — but know exactly what you get.**
+If child A is provable then `parent ≡ A ∧ B ≡ B`: the residual child B is **logically
+equivalent to the parent**. A closable half never reduces the parent. What it does is
+retire a settled region checkably, trigger the dependency-linking above, and hand the
+residual solver the extra hypothesis `¬Φ`.
+
+So the split is worth publishing only if `¬Φ` is a **usable** hypothesis. Rank candidates
+by that, not by how big the closable half is:
+
+- *usable*: local, structural, checkable at a vertex or an edge — "girth ≥ 4", "no
+  triangle", "not bipartite", "characteristic ≠ 2", "`Re u ≠ 0`".
+- *weak*: a negative existential over a large search space — "no Hamiltonian path", "no
+  perfect matching whose complement is divisible". Honest, but the residual solver gets
+  almost nothing.
+
+Write which of the two it is on the node. And do **not** write that the residual child is
+"strictly weaker" than its parent when the sibling is closable — it is equivalent, and
+the value of the split is that it *locates* the difficulty, not that it reduces it.
+
+### Shapes the split has to survive
+
+**Can you state `Φ` at all?** The split predicate must be expressible in the parent's
+preamble plus Mathlib. If not, either inline it verbatim in every child's
+`formal_statement` — identical text, so a reader can see the halves are complementary —
+or publish a new Definition node, which is permanent. Check Mathlib at the target's exact
+`mathlib_rev` before assuming a standard notion exists: a field's standard vocabulary is
+often absent. At `0df444a` Mathlib has `Walk.IsHamiltonian` but no cyclic edge
+connectivity, no 2-factor decomposition, no girth.
+
+**Is anything decidable?** In finite combinatorics the reflex is "settle small cases by
+`decide`, induct above". Test it before building a child on it. Take a concrete instance
+of the mission's own types, give the primitive a `DecidableRel` by hand, and run
+`#synth Decidable (…)` on **each** predicate in the statement. A `noncomputable def` in
+the definition module, a quantifier over `Finset`, or an unbounded `ℕ` field each kill
+it, and none are visible in the natural-language statement. If synth fails, a
+"small cases" child is a decidability project, not an evening.
+
+**Does the induction close?** A child that is the parent at smaller size needs an
+order-reducing operation preserving *every* hypothesis, arithmetic side-conditions
+included. Write the operation down and check them one at a time. On cubic graphs:
+deleting three vertices destroys regularity; contracting a triangle preserves regularity
+and connectivity but moves `n` by 2 and breaks `3 ∣ n`.
 
 **Look one step further out for missing infrastructure.** A split may be blocked only by
 a classical theorem absent from the environment. If the mission can derive it in a few
@@ -116,6 +189,8 @@ split possible.
   imported stubs of published-but-open nodes carry their own `sorry`; yours must not.
 - `#print axioms` on a helper that takes its dependencies as **explicit hypotheses**
   certifies the mathematics independently of how they are discharged.
+- A `/-- doc comment -/` immediately before `open Foo in theorem solution` is a parse
+  error: `unexpected token 'open'; expected 'lemma'`. Use `--`.
 - `Failed to compile theorem module` is deterministic — fix the file. `Verification timed
   out` on a large file is often contention — resubmit alone, once.
 

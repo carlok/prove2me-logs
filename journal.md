@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **notes** — [A closable half does not weaken the parent, and five public nodes
+  said otherwise](notes/a-closable-half-does-not-weaken-the-parent.md)
 - **diaz** — [Both branches decomposed, and what is left is exactly the
   conjecture minus its corners](missions/diaz/2026-09-08-both-branches.md)
 - **diaz** — [Four generations, and the last split leaves the difficulty with
