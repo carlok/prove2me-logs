@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-09-08
 
+- **diaz** — [The two leaves were not independent, and the graph said otherwise
+  for a day](missions/diaz/2026-09-08-the-leaves-were-not-independent.md)
 - **notes** — [A closable half does not weaken the parent, and five public nodes
   said otherwise](notes/a-closable-half-does-not-weaken-the-parent.md)
 - **diaz** — [Both branches decomposed, and what is left is exactly the
