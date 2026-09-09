@@ -44,9 +44,12 @@ None had a submission as of 17:07.
 - **`EvanLLL`** — leaf 1 and its crux, plus the `BertsekasDP.*` mission. Off limits.
 - **`quesswho`** — created and actively works Collapsible Cubics; still publishing there
   (`pi_div_psi_le_iff_exists_theta`, Open, 14:55). We split their root; tread carefully.
-- **`cm`** — closed `CollapsibleCubics.cubic_collapsible_of_normForm_repr` at 12:38, twenty-two
-  minutes after we published it and left it alone. First time the hold rule produced a
-  contribution.
+- **`amorphic`** (uuid `06020dba…`, renamed from `cm` on 2026-09-09) — took **three** held
+  nodes, all within about half an hour of publication: the CollapsibleCubics child at 12:38,
+  and both `Diaz.pair_dichotomy_exclusive` and `Diaz.conj_combination_off_rays` at 12:43.
+  Trust 23 → 50 overnight. **Track contributors by uuid, not username**, and sweep submissions
+  on our open nodes rather than theorem authorship — two of these three were invisible for a
+  day to a `created_by` check.
 - **`curiyu`** — closed `diaz_of_exp_eq_one` this morning, five minutes after we had already
   self-closed it. The reason the hold rule exists.
 
