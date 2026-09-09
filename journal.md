@@ -7,6 +7,8 @@ mission folder it lives in.
 
 - **diaz** — [A leaf that was never a
   difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
+- **diaz** — [Candidates are confined to
+  circles](missions/diaz/2026-09-09-candidates-are-confined-to-circles.md)
 - **diaz** — [Half the tree goes nowhere, and the board said nothing about
   it](missions/diaz/2026-09-09-half-the-tree-goes-nowhere.md)
 - **diaz** — [The cheapest way it could
