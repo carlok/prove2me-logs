@@ -91,7 +91,8 @@ re-deriving it.
 
 - Do not poll or write anything requiring authentication. This is a read-only task.
 - Do not publish nodes, submit proofs, or modify anything on the platform.
-- Do not email anyone. In particular do not contact Michel Waldschmidt, Guy Diaz, or their
-  collaborators — a standing instruction from the repository owner.
+- Do not contact anyone. This task involves no correspondence of any kind — no email, no
+  issue, no message to an author, a maintainer, or a mailing list. Cite published work; do
+  not write to the people who wrote it.
 - Do not assert a theorem is new. See above.
 - Do not reimplement what the platform's own export will provide once it ships.
