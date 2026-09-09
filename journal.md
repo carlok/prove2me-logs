@@ -7,6 +7,8 @@ mission folder it lives in.
 
 - **diaz** — [A leaf that was never a
   difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
+- **diaz** — [The cheapest way it could
+  fail](missions/diaz/2026-09-09-the-cheapest-way-it-could-fail.md)
 - **diaz** — [The tree was never the
   reduction](missions/diaz/2026-09-09-the-tree-was-never-the-reduction.md)
 - **notes** — [A design review that killed its own
