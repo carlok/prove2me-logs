@@ -7,6 +7,8 @@ mission folder it lives in.
 
 - **diaz** — [A leaf that was never a
   difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
+- **diaz** — [The tree was never the
+  reduction](missions/diaz/2026-09-09-the-tree-was-never-the-reduction.md)
 - **notes** — [A design review that killed its own
   design](notes/a-design-review-that-killed-its-design.md)
 - **notes** — [Where the points are, measured](notes/where-the-points-are.md)
