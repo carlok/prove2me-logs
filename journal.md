@@ -3,6 +3,12 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-12
+
+- **diaz** — [Outside the hull](missions/diaz/2026-09-12-outside-the-hull.md)
+- **notes** — [What a third multiplier would have to
+  be](notes/what-a-third-multiplier-would-have-to-be.md)
+
 ## 2026-09-08
 
 - **diaz** — [A leaf that was never a
