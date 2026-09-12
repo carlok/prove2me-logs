@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-12
 
+- **diaz** — [The second cloud run](missions/diaz/2026-09-12-the-second-cloud-run.md)
 - **diaz** — [The first cloud run](missions/diaz/2026-09-12-the-first-cloud-run.md)
 - **diaz** — [Outside the hull](missions/diaz/2026-09-12-outside-the-hull.md)
 - **notes** — [What a third multiplier would have to
