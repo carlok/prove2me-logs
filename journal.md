@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-13
+
+- **diaz** — [The held node closes](missions/diaz/2026-09-13-the-held-node-closes.md)
+
 ## 2026-09-12
 
 - **diaz** — [The second cloud run](missions/diaz/2026-09-12-the-second-cloud-run.md)
