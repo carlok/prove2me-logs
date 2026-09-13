@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-13
 
+- **diaz** — [The working folder empties](missions/diaz/2026-09-13-the-working-folder-empties.md)
 - **diaz** — [The mirror is complete](missions/diaz/2026-09-13-the-mirror-is-complete.md)
 - **diaz** — [No axioms left](missions/diaz/2026-09-13-no-axioms-left.md)
 - **diaz** — [The held node closes](missions/diaz/2026-09-13-the-held-node-closes.md)
