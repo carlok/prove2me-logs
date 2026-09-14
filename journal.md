@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-14
+
+- **diaz** — [Four exponentials gets a tree](missions/diaz/2026-09-14-four-exponentials-gets-a-tree.md)
+
 ## 2026-09-13
 
 - **diaz** — [The working folder empties](missions/diaz/2026-09-13-the-working-folder-empties.md)
