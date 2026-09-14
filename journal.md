@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-14
 
+- **diaz** — [The first FourExp leaf closes](missions/diaz/2026-09-14-the-first-fourexp-leaf-closes.md)
 - **diaz** — [Four exponentials gets a tree](missions/diaz/2026-09-14-four-exponentials-gets-a-tree.md)
 
 ## 2026-09-13
