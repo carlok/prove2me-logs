@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-15
+
+- **diaz** — [The zero count splits, and its source has a hole](missions/diaz/2026-09-15-the-zero-count-splits.md)
+
 ## 2026-09-14
 
 - **diaz** — [The first FourExp leaf closes](missions/diaz/2026-09-14-the-first-fourexp-leaf-closes.md)
