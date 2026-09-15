@@ -3,12 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
-## 2026-09-16
-
-- **diaz** — [Two classical lemmas, proved from Mathlib](missions/diaz/2026-09-16-two-classical-lemmas.md)
-
 ## 2026-09-15
 
+- **diaz** — [The Cauchy estimate with zeros](missions/diaz/2026-09-15-cauchy-estimate-with-zeros.md)
+- **diaz** — [Two classical lemmas, proved from Mathlib](missions/diaz/2026-09-15-two-classical-lemmas.md)
 - **diaz** — [Every FourExp leaf has a reduction](missions/diaz/2026-09-15-every-leaf-has-a-reduction.md)
 - **diaz** — [Gel'fond's criterion, as a Lean argument](missions/diaz/2026-09-15-the-criterion-in-lean.md)
 - **diaz** — [The zero count splits, and its source has a hole](missions/diaz/2026-09-15-the-zero-count-splits.md)
