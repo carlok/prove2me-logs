@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-15
 
+- **diaz** — [Every FourExp leaf has a reduction](missions/diaz/2026-09-15-every-leaf-has-a-reduction.md)
 - **diaz** — [Gel'fond's criterion, as a Lean argument](missions/diaz/2026-09-15-the-criterion-in-lean.md)
 - **diaz** — [The zero count splits, and its source has a hole](missions/diaz/2026-09-15-the-zero-count-splits.md)
 
