@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-15
 
+- **diaz** — [Gel'fond's lemma, and the criterion closes](missions/diaz/2026-09-15-gelfonds-lemma.md)
 - **diaz** — [The zero count closes](missions/diaz/2026-09-15-the-zero-count-closes.md)
 - **diaz** — [The radius in the zero count](missions/diaz/2026-09-15-the-radius-in-the-zero-count.md)
 - **diaz** — [The Cauchy estimate with zeros](missions/diaz/2026-09-15-cauchy-estimate-with-zeros.md)
