@@ -1,7 +1,7 @@
 # Two classical lemmas, proved from Mathlib
 
 - **Mission** — Diaz's modulus conjecture, `3045e100-83a7-4863-9c02-21f90105f182`
-- **Date** — 2026-09-16
+- **Date** — 2026-09-15
 - **Nodes** — `FourExp.height_dvd_le`, `FourExp.dvd_of_small_values`, both Proved
 
 Two of the classical leaves under the transcendence criterion are closed. They are proved in
