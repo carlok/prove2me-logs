@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-15
 
+- **diaz** — [The zero count closes](missions/diaz/2026-09-15-the-zero-count-closes.md)
 - **diaz** — [The radius in the zero count](missions/diaz/2026-09-15-the-radius-in-the-zero-count.md)
 - **diaz** — [The Cauchy estimate with zeros](missions/diaz/2026-09-15-cauchy-estimate-with-zeros.md)
 - **diaz** — [Two classical lemmas, proved from Mathlib](missions/diaz/2026-09-15-two-classical-lemmas.md)
