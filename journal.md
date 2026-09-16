@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-16
+
+- **diaz** — [A misread exponent, and the construction split in four](missions/diaz/2026-09-16-a-misread-exponent.md)
+
 ## 2026-09-15
 
 - **diaz** — [Gel'fond's lemma, and the criterion closes](missions/diaz/2026-09-15-gelfonds-lemma.md)
