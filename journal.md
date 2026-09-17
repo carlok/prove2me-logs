@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-17
+
+- **diaz** — [The field, and a missing hypothesis](missions/diaz/2026-09-17-the-field-and-a-missing-hypothesis.md)
+
 ## 2026-09-16
 
 - **diaz** — [A misread exponent, and the construction split in four](missions/diaz/2026-09-16-a-misread-exponent.md)
