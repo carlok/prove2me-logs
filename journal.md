@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-17
 
+- **diaz** — [The auxiliary function of the 1973 construction exists](missions/diaz/2026-09-17-the-auxiliary-function.md)
 - **diaz** — [The field, and a missing hypothesis](missions/diaz/2026-09-17-the-field-and-a-missing-hypothesis.md)
 
 ## 2026-09-16
