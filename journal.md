@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-18
 
+- **diaz** — [Four exponentials in transcendence degree one, machine-checked](missions/diaz/2026-09-18-four-exponentials-trdeg-one.md)
 - **diaz** — [The core of the 1973 construction is proved](missions/diaz/2026-09-18-the-norm-step.md)
 
 ## 2026-09-17
