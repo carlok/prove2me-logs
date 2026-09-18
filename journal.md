@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-18
+
+- **diaz** — [The core of the 1973 construction is proved](missions/diaz/2026-09-18-the-norm-step.md)
+
 ## 2026-09-17
 
 - **diaz** — [The auxiliary function is small on a larger grid](missions/diaz/2026-09-17-extrapolation.md)
