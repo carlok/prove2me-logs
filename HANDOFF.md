@@ -1,32 +1,42 @@
-# Open threads at 2026-09-08 17:10 UTC
+# Open threads at 2026-09-19
 
-## The frontier — four leaves, four different kinds of thing
+Rewritten after the four exponentials subtree closed. The sections below the frontier are older
+and are kept because they are still true; the dated ones say so.
+
+## The frontier — three leaves, all open mathematics
+
+`GET /theorems/<root>/open-leaves` on `DiazModulus.diaz_modulus_conjecture` returns three, and
+nothing else in the tree is Open:
 
 | leaf | uuid | what it is |
 |---|---|---|
-| `DiazModulus.recip_pi_not_log_real_gamma` | `29c99457` | **start here** — Gelfond–Schneider-shaped half of (S) |
-| `DiazModulus.recip_pi_not_log_imag_gamma` | `dea45a44` | the other half of (S) |
-| `DiazModulus.four_exponentials_trdeg_one` | `2c0f35ea` | **citation boundary, not a task** — see below |
-| `..._period_aligned_norm_free` | `1b43101e` | the matrix route is proved impossible; needs a new idea |
-| `DiazModulus.norm_transcendental_of_generic_conj_pair` | `ed970912` | EvanLLL's; equivalent to the whole root |
+| `DiazModulus.recip_pi_not_log_real_gamma` | `29c99457` | half of (S): `1/π` is not an algebraic multiple of a purely imaginary logarithm |
+| `DiazModulus.recip_pi_not_log_imag_gamma` | `dea45a44` | the other half: `π ≠ β/log α` |
+| `DiazModulus.norm_transcendental_of_generic_conj_pair` | `ed970912` | another contributor's; equivalent to the whole root |
 
-**(S) has been split and the split is linked.** `DiazModulus.recip_pi_not_log`
-(`b5a16bec`) now has two children, reduction `SKETCH_ACCEPTED`. It is not a case distinction:
+Each node's own description records that it is implied by the strong four exponentials
+conjecture. None of them is a formalisation task.
+
+**(S) is split and the split is linked.** `DiazModulus.recip_pi_not_log` (`b5a16bec`) has two
+children, reduction `SKETCH_ACCEPTED`. It is not a case distinction:
 `S₀ = {γ ∈ Q̄ : γ/(iπ) ∈ ℒ}` is a ℚ-subspace closed under conjugation, so `γ ∈ S₀` forces
-`Re γ ∈ S₀` and `i·Im γ ∈ S₀`. Attack `real_gamma` first — γ real makes `γ/(iπ)` purely
-imaginary, so the target is a modulus-one algebraic point that is provably not a root of
-unity. Account in `missions/diaz/SPLIT_S.md`, Lean in `DZ_SPLITS_core.lean`.
+`Re γ ∈ S₀` and `i·Im γ ∈ S₀`. `real_gamma` is the easier-looking half — γ real makes `γ/(iπ)`
+purely imaginary, so the target is a modulus-one algebraic point that is provably not a root of
+unity. Account in `missions/diaz/SPLIT_S.md`.
 
-Two further leaves already reduce to (S), so closing both children closes four nodes.
+**`four_exponentials_trdeg_one` is Proved** (2026-09-18, node `2c0f35ea`), together with
+everything under it, and by cascade with the branch node
+`..._period_aligned_norm_rat_mult`. The earlier instruction here — do not attempt it, the
+blocker is Philippon's zero estimate — was wrong about the route, not merely pessimistic.
+Waldschmidt's own 1973 proof with the 1971 toolbox needs no zero estimate and no Baker; the
+scoping pass that said otherwise had read the 1995 sketch and not the 1973 paper. The
+development is 26 nodes in the `FourExp` namespace and about 8,800 lines of Lean; see
+`missions/diaz/2026-09-18-four-exponentials-trdeg-one.md`.
 
-**Do not try to prove `four_exponentials_trdeg_one`.** It is Roy–Waldschmidt 1995 Thm 1,
-proved by Brownawell 1974 and Waldschmidt 1973, and an audited scoping pass found essentially
-none of the machinery in Mathlib — the blocker is Philippon's zero estimate, with Wirsing's
-theorem second. Its description now says all this. Six exponentials does **not** imply it
-(3×2 versus 2×2 plus a trdeg hypothesis). The source is held at
-`missions/diaz/sources/roy-waldschmidt-1995-quadratic-relations.pdf`.
+Its sibling `..._period_aligned_norm_free` (`1b43101e`) is what still blocks that branch, and it
+reduces to the two (S) halves above.
 
-## Held open overnight — close tomorrow if unclaimed
+## Held open overnight (2026-09-08; all long since resolved)
 
 | node | uuid | proof sitting in |
 |---|---|---|
@@ -60,7 +70,8 @@ literature access. Do not quote either without checking.
 
 1. "Six exponentials = the matrix rank statement for `dl > d + l`" (free-half run).
 2. "There is no known deduction of the transcendence-degree-one four exponentials from six
-   exponentials" (outsourced scoping pass).
+   exponentials" (outsourced scoping pass). Still unverified, and now of less consequence: the
+   theorem has a machine-checked proof of its own.
 
 ## Process notes worth keeping
 

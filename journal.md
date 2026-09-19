@@ -49,10 +49,8 @@ mission folder it lives in.
 - **notes** — [What a third multiplier would have to
   be](notes/what-a-third-multiplier-would-have-to-be.md)
 
-## 2026-09-08
+## 2026-09-09
 
-- **diaz** — [A leaf that was never a
-  difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
 - **diaz** — [Candidates are confined to
   circles](missions/diaz/2026-09-09-candidates-are-confined-to-circles.md)
 - **diaz** — [Half the tree goes nowhere, and the board said nothing about
@@ -61,6 +59,11 @@ mission folder it lives in.
   fail](missions/diaz/2026-09-09-the-cheapest-way-it-could-fail.md)
 - **diaz** — [The tree was never the
   reduction](missions/diaz/2026-09-09-the-tree-was-never-the-reduction.md)
+
+## 2026-09-08
+
+- **diaz** — [A leaf that was never a
+  difficulty](missions/diaz/2026-09-08-a-leaf-that-was-never-a-difficulty.md)
 - **notes** — [A design review that killed its own
   design](notes/a-design-review-that-killed-its-design.md)
 - **notes** — [Where the points are, measured](notes/where-the-points-are.md)
