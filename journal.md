@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-19
+
+- **diaz** — [The two analytic obstructions, and the queue closes](missions/diaz/2026-09-19-the-two-obstructions.md)
+
 ## 2026-09-18
 
 - **diaz** — [Four exponentials in transcendence degree one, machine-checked](missions/diaz/2026-09-18-four-exponentials-trdeg-one.md)
