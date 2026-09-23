@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-23
+
+- **diaz** — [Gelfond–Schneider and three more classical theorems, closed on the platform](missions/diaz/2026-09-23-gelfond-schneider.md)
+
 ## 2026-09-21
 
 - **diaz** — [The companion note, stable version 1.0](missions/diaz/2026-09-21-the-stable-note.md)
