@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-23
 
+- **diaz** — [Gelfond–Schneider makes the quartic Salem relations unconditional](missions/diaz/2026-09-23-salem-unconditional.md)
 - **diaz** — [Gelfond–Schneider and three more classical theorems, closed on the platform](missions/diaz/2026-09-23-gelfond-schneider.md)
 
 ## 2026-09-21
