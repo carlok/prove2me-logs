@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-23
 
+- **diaz** — [A partner for √((log 2)² + π²), and a Sidon set of candidates](missions/diaz/2026-09-23-smallest-instance.md)
 - **diaz** — [The statement (S) can fail in one direction only, and Diaz needs only one](missions/diaz/2026-09-23-one-direction.md)
 - **diaz** — [Gelfond–Schneider makes the quartic Salem relations unconditional](missions/diaz/2026-09-23-salem-unconditional.md)
 - **diaz** — [Gelfond–Schneider and three more classical theorems, closed on the platform](missions/diaz/2026-09-23-gelfond-schneider.md)
