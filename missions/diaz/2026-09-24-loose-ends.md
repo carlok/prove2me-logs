@@ -93,3 +93,12 @@ This closes the formal record of the barrier. It is not progress on the
 conjecture. The two open statements are unchanged: the real half of
 (S), and (NT). Whether a candidate can carry an anisotropic relation
 such as `Re(u²) = π²` is itself open. No proved theorem excludes it.
+
+**Correction (later the same day).** The anisotropic relations do not
+survive every proved theorem. Théorème 0.2 of Roy–Waldschmidt (Ann. Sci.
+École Norm. Sup. 30, 1997), the quadric version of the four exponentials
+theorem in transcendence degree one, excludes every rational quadratic
+relation among `u`, `ū`, `iπ` for a candidate algebraic over `ℚ(π)` with
+`Im u ∉ ℚπ`. So no such candidate carries one. The formal results stand;
+the texts that said otherwise were corrected. See
+[the literature check](2026-09-24-literature-check.md).
