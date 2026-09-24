@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-24
+
+- **diaz** — [The four exponentials conjecture sees nothing homogeneous](missions/diaz/2026-09-24-barrier.md)
+
 ## 2026-09-23
 
 - **diaz** — [A partner for √((log 2)² + π²), and a Sidon set of candidates](missions/diaz/2026-09-23-smallest-instance.md)
