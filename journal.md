@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-24
 
+- **diaz** — [Gelfond–Schneider, rebuilt as a tree](missions/diaz/2026-09-24-gelfond-schneider-tree.md)
 - **diaz** — [The right size, and five more results](missions/diaz/2026-09-24-right-size.md)
 - **diaz** — [What the reading found, formalised](missions/diaz/2026-09-24-literature-formalised.md)
 - **diaz** — [Reading everything: attributions](missions/diaz/2026-09-24-sweep.md)
