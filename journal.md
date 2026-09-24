@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-24
 
+- **diaz** — [Reading everything: attributions](missions/diaz/2026-09-24-sweep.md)
 - **diaz** — [The literature check, and a correction](missions/diaz/2026-09-24-literature-check.md)
 - **diaz** — [The barrier's loose ends, formalised](missions/diaz/2026-09-24-loose-ends.md)
 - **diaz** — [The four exponentials conjecture sees nothing homogeneous](missions/diaz/2026-09-24-barrier.md)

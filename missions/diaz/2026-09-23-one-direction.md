@@ -109,3 +109,7 @@ of a classical theorem, and is possibly known.
 The real half of (S): for real algebraic `γ ≠ 0`, is `e^{−iγ/π}`
 transcendental? Then (NT), which is the conjecture. The imaginary half
 also stays open, but Diaz no longer depends on it.
+
+**Note (24 September, after reading the literature).** The structure of `S₀`
+described here is Diaz's: J. Théor. Nombres Bordeaux 16 (2004), Théorèmes 4 and
+5, at `v = −1/π`. See [Reading everything: attributions](2026-09-24-sweep.md).

@@ -102,3 +102,8 @@ being checked against Roy–Waldschmidt 1997. That paper had been in
 `missions/diaz/sources/` since 2026-09-14, downloaded for the four
 exponentials work. A claim of the form "nothing known excludes X" gets a
 check against the sources already on disk before it is published.
+
+**Note (later the same day).** Diaz proved the statement of Corollaire 7.4
+independently, in the same year (J. Théor. Nombres Bordeaux 9 (1997),
+Proposition 2). The fuller reading, and the corrections it led to, are in
+[Reading everything: attributions](2026-09-24-sweep.md).

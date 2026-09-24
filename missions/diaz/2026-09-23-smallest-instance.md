@@ -85,3 +85,12 @@ None is claimed as new.
 
 The real half of (S) and (NT), and in particular the question itself:
 is `√((log 2)² + π²)` algebraic?
+
+**Note (24 September, after reading the literature).** Most of these results are
+classical or special cases of published ones. `e^{i/π}` or `e^{iπ³}` is
+Waldschmidt 1973 (J. Number Theory 5, p. 192), and the other partners of (S) are
+his Corollaire 4. The square duality and the involution lemma are the ℚ-linear
+forms of Diaz 2007, Corollaire 4(3) and 4(4). The headline has a stronger known
+form: `2^{i log 2/π}` is transcendental as soon as `log 2` and `π` are
+algebraically dependent (Waldschmidt, Lecture Notes 402, p. 202). See
+[Reading everything: attributions](2026-09-24-sweep.md).
