@@ -86,8 +86,8 @@ only.
 On the board:
 - all four statements published within two minutes;
 - the three proofs with no dependency inside the batch were ACCEPTED first;
-- Proposition 1 then A4 followed, each once the node it imports read
-  Proved.
+- Proposition 1 and then the (4-1) case followed, each once the node it
+  imports read Proved.
 
 The first poll caught Proposition 1 as SKETCH_ACCEPTED while the helper's
 new status propagated. It read ACCEPTED on the re-check.
