@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-25
 
+- **diaz** — [The second size wave: a 1,550-line proof becomes 44](missions/diaz/2026-09-25-size-wave-2.md)
 - **diaz** — [The first size wave: four nodes, nine shorter proofs](missions/diaz/2026-09-25-size-wave-1.md)
 
 ## 2026-09-24
