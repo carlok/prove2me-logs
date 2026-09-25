@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-25
+
+- **diaz** — [The first size wave: four nodes, nine shorter proofs](missions/diaz/2026-09-25-size-wave-1.md)
+
 ## 2026-09-24
 
 - **diaz** — [Gelfond–Schneider, rebuilt as a tree](missions/diaz/2026-09-24-gelfond-schneider-tree.md)
