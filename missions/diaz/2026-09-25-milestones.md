@@ -45,39 +45,41 @@ Carlo reviewed its list before anything was linked.
 
 ## What the leaderboard counts
 
-It did not move. Before and after the links, carlok had 55 accepted
-solutions and 73 submitted problems on the mission board, although the
-mission had grown by 18 theorems, all of them his and all proved.
+On the evening of the links the mission board still showed carlok at 55
+accepted solutions and 73 submitted problems. A first reading of those
+figures concluded that a theorem joining a mission after it is proved is
+not counted. That reading was wrong. Two days later the board showed 78
+and 96: exactly the member theorems of that moment, including all 21
+milestone theorems and the five nodes of the third size wave that joined
+through a second proof. The board is a cached snapshot, refreshed hours
+after the fact. On the 25th it still showed the mission as it stood
+before the third size wave, and those two figures happened to fit the
+wrong rule. (This section was corrected on 2026-09-27.)
 
-The counts fit one rule exactly. Each column equals the number of member
-theorems minus those that were already Proved when they joined: the 21
-milestone theorems, and the five nodes of the third size wave that joined
-through a second proof after being proved themselves. Nodes of the four
-exponentials subtree, published before their parent's sketch but still
-Open when it was accepted, are counted in both columns. So a theorem
-scores on the mission board only if it joins while Open.
-
-Milestones therefore put results into the mission and its graph, not
-into its score. New work counts only if it is published top-down: a
-parent's proof first, accepted as a sketch while its new children are
-Open, so that they join before they are proved. The fourth size wave is
-published in that order.
+So a milestone link counts on the mission board like any other
+membership, both for the theorem's creation and for its first accepted
+proof. Publishing order still decides membership for new work: a node
+joins only when an accepted proof of a member imports it, or when it is
+linked. The fourth size wave is published top-down, parents first, so
+that each new node is already a member when its own proof brings its
+children in.
 
 ## What is not proved
 
 - Nothing new is proved here. Every linked theorem was already Proved;
   a link is Carlo's statement that the formal statement matches its
   source.
-- The rule above is inferred from the counts, not documented. It fits
-  both columns with no exception, but the platform could change it.
+- The board's refresh interval is not documented. The figures above
+  come from readings two days apart.
 - The library has no proof of Baker's theorem. Four statements of the
   note are proved only with it as a hypothesis; on the board it is Open
   as `Schanuel.baker_linear_forms_in_logarithms`.
 
 ## What remains open
 
-The statements of ten more nodes still carry stale wording: "unpublished
+The statements of ten more nodes carried stale wording: "unpublished
 manuscript", "Corollary 7", "possibly known", a LaTeX label, and one
 "New result" whose content is the case d = ℓ = 2 of Théorème 0.1 of Roy
-and Waldschmidt (1997). Corrections are drafted and wait for Carlo's
-review. About a hundred other Diaz nodes use similar wording.
+and Waldschmidt (1997). They were corrected on 2026-09-27, and three
+empty source fields were filled. About a hundred other Diaz nodes use
+similar wording; corrections are being drafted for Carlo's review.
