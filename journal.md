@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-25
 
+- **diaz** — [Twenty-one milestones, and a note checked against its own nodes](missions/diaz/2026-09-25-milestones.md)
 - **diaz** — [The third size wave: one block copied twice becomes eight nodes](missions/diaz/2026-09-25-size-wave-3.md)
 - **diaz** — [The second size wave: a 1,550-line proof becomes 44](missions/diaz/2026-09-25-size-wave-2.md)
 - **diaz** — [The first size wave: four nodes, nine shorter proofs](missions/diaz/2026-09-25-size-wave-1.md)
