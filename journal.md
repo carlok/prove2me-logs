@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-27
+
+- **diaz** — [The fourth size wave: six long proofs, eight nodes, published top-down](missions/diaz/2026-09-27-size-wave-4.md)
+
 ## 2026-09-25
 
 - **diaz** — [Twenty-one milestones, and a note checked against its own nodes](missions/diaz/2026-09-25-milestones.md)

@@ -81,5 +81,8 @@ The statements of ten more nodes carried stale wording: "unpublished
 manuscript", "Corollary 7", "possibly known", a LaTeX label, and one
 "New result" whose content is the case d = ℓ = 2 of Théorème 0.1 of Roy
 and Waldschmidt (1997). They were corrected on 2026-09-27, and three
-empty source fields were filled. About a hundred other Diaz nodes use
-similar wording; corrections are being drafted for Carlo's review.
+empty source fields were filled. A wider sweep the same day corrected 103
+more nodes with similar wording (119 edits), adding page-checked citations
+where a result turned out to be in the literature. It also found a priority
+claim in the note that Corollaire 4(2) of Diaz's 2007 paper contradicts;
+note v1.10 withdraws it.
