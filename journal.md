@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-29
+
+- **diaz** — [Rational squared moduli: at most one pair ±t, and two open statements that cannot both fail](missions/diaz/2026-09-29-rational-squared-moduli.md)
+
 ## 2026-09-27
 
 - **diaz** — [The fourth size wave: six long proofs, eight nodes, published top-down](missions/diaz/2026-09-27-size-wave-4.md)
