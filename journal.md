@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-09-30
 
+- **diaz** — [Waldschmidt 1973 in full, and Schneider's eighth problem](missions/diaz/2026-09-30-waldschmidt-1973.md)
 - **diaz** — [The fifth size wave: six proofs that re-proved what already existed](missions/diaz/2026-09-30-size-wave-5.md)
 
 ## 2026-09-29
