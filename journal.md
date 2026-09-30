@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-09-30
+
+- **diaz** — [The fifth size wave: six proofs that re-proved what already existed](missions/diaz/2026-09-30-size-wave-5.md)
+
 ## 2026-09-29
 
 - **diaz** — [Rational squared moduli: at most one pair ±t, and two open statements that cannot both fail](missions/diaz/2026-09-29-rational-squared-moduli.md)
