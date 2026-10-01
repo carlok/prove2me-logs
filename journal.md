@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-01
+
+- **diaz** — [Consequences of the strong six exponentials theorem](missions/diaz/2026-10-01-strong-six-exponentials.md)
+
 ## 2026-09-30
 
 - **diaz** — [Waldschmidt 1973 in full, and Schneider's eighth problem](missions/diaz/2026-09-30-waldschmidt-1973.md)
