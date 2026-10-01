@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-01
 
+- **diaz** — [Strong four, sharp four, strong five](missions/diaz/2026-10-01-strong-four-and-five.md)
 - **diaz** — [Where the strong six exponentials route stops, and Roy's lemma](missions/diaz/2026-10-01-six-exponentials-limit.md)
 - **diaz** — [Consequences of the strong six exponentials theorem](missions/diaz/2026-10-01-strong-six-exponentials.md)
 
