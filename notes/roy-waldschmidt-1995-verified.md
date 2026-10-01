@@ -21,7 +21,7 @@ Three pages, matching the cited range.
 > For a proof of this result, we refer to [1] Cor. 7 and [6] Cor. 4.
 
 with, in the bibliography, `[1]` Brownawell, *The algebraic independence of certain numbers
-related to the exponential function*, J. Number Th. **6** (1974), 22–31, and `[6]`
+related by the exponential function*, J. Number Th. **6** (1974), 22–31, and `[6]`
 Waldschmidt, *Solution du huitième problème de Schneider*, J. Number Th. **5** (1973),
 191–202. The paper opens by saying the four exponentials conjecture "has been solved only in
 one special case, namely when the transcendence degree of the field which is spanned by the
