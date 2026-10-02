@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-02
 
+- **diaz** — [Baker's theorem, by Schneider–Lang in several variables](missions/diaz/2026-10-02-baker.md)
 - **diaz** — [Diaz's (Qr2) in transcendence degree one](missions/diaz/2026-10-02-qr2-in-transcendence-degree-one.md)
 
 ## 2026-10-01
