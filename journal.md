@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-02
+
+- **diaz** — [Diaz's (Qr2) in transcendence degree one](missions/diaz/2026-10-02-qr2-in-transcendence-degree-one.md)
+
 ## 2026-10-01
 
 - **diaz** — [Strong four, sharp four, strong five](missions/diaz/2026-10-01-strong-four-and-five.md)
