@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-04
+
+- **diaz** — [A barrier on generic data, a dilogarithm dichotomy, and three results from the manuscript](missions/diaz/2026-10-04-generic-barrier-and-dilogarithm.md)
+
 ## 2026-10-02
 
 - **diaz** — [Baker's theorem as a hypothesis, discharged](missions/diaz/2026-10-02-baker-discharged.md)
