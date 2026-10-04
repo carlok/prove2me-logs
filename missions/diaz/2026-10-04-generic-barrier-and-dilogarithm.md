@@ -77,5 +77,5 @@ The four tops are milestones 103–106, and all six nodes are mission members (2
 ## Open
 
 - The classification of the five-dimensional spaces ⟨1, u, ū, z, z̄⟩, and the rank-two bounds.
-- Eight nodes that another contributor (Nickrobbins95) added to the mission on 3–4 October are archived
-  but not yet mirrored.
+- Eight nodes that another contributor, Nickrobbins95, added to the mission on 3–4 October were mirrored
+  the same evening, at Carlo's request, with their author named in each module header and in the README.
