@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-05
+
+- **diaz** — [Which four-dimensional extensions carry a 2×3 configuration](missions/diaz/2026-10-05-theorem-b.md)
+
 ## 2026-10-04
 
 - **diaz** — [A barrier on generic data, a dilogarithm dichotomy, and three results from the manuscript](missions/diaz/2026-10-04-generic-barrier-and-dilogarithm.md)
