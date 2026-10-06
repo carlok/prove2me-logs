@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-06
+
+- **diaz** — [Five-dimensional spaces carry configurations Theorem B cannot see](missions/diaz/2026-10-06-five-dimensional.md)
+
 ## 2026-10-05
 
 - **diaz** — [Which four-dimensional extensions carry a 2×3 configuration](missions/diaz/2026-10-05-theorem-b.md)
