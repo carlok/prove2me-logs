@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-08
+
+- **diaz** — [Separation, a normal form, and Laurent hulls](missions/diaz/2026-10-08-separation-normal-form.md)
+
 ## 2026-10-06
 
 - **diaz** — [Five-dimensional spaces carry configurations Theorem B cannot see](missions/diaz/2026-10-06-five-dimensional.md)
