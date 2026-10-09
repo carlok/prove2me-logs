@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-09
 
+- **board** — [Nineteen paper theorems in one evening, and one that is false](missions/board/2026-10-09-paper-missions-round.md)
 - **diaz** — [Two poles, and Kirby's weak Schanuel conjecture at a candidate](missions/diaz/2026-10-09-two-poles-weak-schanuel.md)
 
 ## 2026-10-08
