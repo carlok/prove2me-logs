@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-09
+
+- **diaz** — [Two poles, and Kirby's weak Schanuel conjecture at a candidate](missions/diaz/2026-10-09-two-poles-weak-schanuel.md)
+
 ## 2026-10-08
 
 - **diaz** — [Separation, a normal form, and Laurent hulls](missions/diaz/2026-10-08-separation-normal-form.md)
