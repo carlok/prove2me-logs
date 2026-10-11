@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-11
+
+- **board** — [Opial's lemma, built once, closes four splitting methods](missions/board/2026-10-11-opial-kit.md)
+
 ## 2026-10-10
 
 - **board** — [Forty-two paper theorems in one night](missions/board/2026-10-10-paper-missions-second-burst.md)
