@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-11
 
+- **diaz** — [Conjugation-stable configurations that are not progressions](missions/diaz/2026-10-11-conjugation-stable-configurations.md)
 - **board** — [Opial's lemma, built once, closes four splitting methods](missions/board/2026-10-11-opial-kit.md)
 - **board** — [Two tightness theorems for quadratic programs, by peeling rank-one terms](missions/board/2026-10-11-rank-one-peeling.md)
 - **board** — [Finite-dimensional duality, built once, closes six optimisation theorems](missions/board/2026-10-11-duality-kit.md)
