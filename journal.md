@@ -7,6 +7,10 @@ mission folder it lives in.
 
 - **board** — [Forty-two paper theorems in one night](missions/board/2026-10-10-paper-missions-second-burst.md)
 
+## 2026-10-10
+
+- **diaz** — [Every involution of the u-line](missions/diaz/2026-10-10-every-involution.md)
+
 ## 2026-10-09
 
 - **board** — [Nineteen paper theorems in one evening, and one that is false](missions/board/2026-10-09-paper-missions-round.md)
