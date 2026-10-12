@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-12
+
+- **diaz** — [The progression spaces, classified](missions/diaz/2026-10-12-progression-spaces-classified.md)
+
 ## 2026-10-11
 
 - **diaz** — [Conjugation-stable configurations that are not progressions](missions/diaz/2026-10-11-conjugation-stable-configurations.md)
