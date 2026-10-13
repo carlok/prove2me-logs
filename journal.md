@@ -7,6 +7,10 @@ mission folder it lives in.
 
 - **diaz** — [The progression spaces, classified](missions/diaz/2026-10-12-progression-spaces-classified.md)
 
+## 2026-10-12
+
+- **board** — [Thirty-seven more paper theorems, and moment duality for chance constraints](missions/board/2026-10-12-third-burst-and-moments.md)
+
 ## 2026-10-11
 
 - **diaz** — [Conjugation-stable configurations that are not progressions](missions/diaz/2026-10-11-conjugation-stable-configurations.md)
