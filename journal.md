@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-14
+
+- **diaz** — [Case II beyond degree one](missions/diaz/2026-10-14-case-two-beyond-degree-one.md)
+
 ## 2026-10-12
 
 - **diaz** — [The progression spaces, classified](missions/diaz/2026-10-12-progression-spaces-classified.md)
