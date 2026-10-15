@@ -63,7 +63,8 @@ built all 9,439 jobs after three fixes: a rewrite rule for the new
 `contDiff_apply` in two ported modules, applied by the porter only on
 v4.35, and one changed class in the Lindemann–Weierstrass port. The
 axiom audit and the porter's check are clean, and CI passed on the
-branch. It is not merged yet.
+branch. Carlo approved the merge the same day: master has been on
+v4.35.0 since `5a7871d`, where CI passed as well.
 
 ## What is not proved
 
@@ -73,4 +74,3 @@ branch. It is not merged yet.
   sources read after they were made.
 - **Five proofs still break the size rule**; splitting them means new
   platform nodes.
-- **The v4.35.0 move waits for Carlo's go**; CI is green on its branch.

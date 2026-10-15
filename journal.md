@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-15
 
+- **diaz** — [Orbits exchanged by conjugation, and the cyclic case](missions/diaz/2026-10-15-swapped-orbits-and-cyclic.md)
 - **diaz** — [What was not found, ranked; and credits owed](missions/diaz/2026-10-15-ranking-and-credits.md)
 
 ## 2026-10-14
