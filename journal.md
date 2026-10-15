@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-15
+
+- **diaz** — [What was not found, ranked; and credits owed](missions/diaz/2026-10-15-ranking-and-credits.md)
+
 ## 2026-10-14
 
 - **diaz** — [Case II beyond degree one](missions/diaz/2026-10-14-case-two-beyond-degree-one.md)
