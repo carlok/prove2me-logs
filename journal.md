@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-16
 
+- **diaz** — [Polynomial hulls, and a barrier](missions/diaz/2026-10-16-polynomial-hulls.md)
 - **diaz** — [Four configurations that were in print](missions/diaz/2026-10-16-four-configurations-in-print.md)
 
 ## 2026-10-15
