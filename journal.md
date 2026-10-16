@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-16
+
+- **diaz** — [Four configurations that were in print](missions/diaz/2026-10-16-four-configurations-in-print.md)
+
 ## 2026-10-15
 
 - **diaz** — [Orbits exchanged by conjugation, and the cyclic case](missions/diaz/2026-10-15-swapped-orbits-and-cyclic.md)

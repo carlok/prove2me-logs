@@ -5,11 +5,13 @@
 
 R12's research notes sort the conjugation-stable spaces that Theorem B
 cannot see, and whose configuration has a factor of degree two, into
-three families: two orbits of u ↦ −u fixed by conjugation, two orbits
+three families, for every involution of the u-line that commutes
+with conjugation: two of its orbits fixed by conjugation, two orbits
 exchanged by it, and a cyclic family. R14 formalised a member of the
 first family and one of the second, whose orbits are 0 and ∞. This
 round (R15) adds four nodes: the second family for finite orbits, and
-a member of the third. Each family now has a formal member.
+a member of the third. Each family now has a formal member, all for
+the involution u ↦ −u.
 
 ## What was proved
 
@@ -78,3 +80,8 @@ configurations of degree two.
   with a Möbius ratio, as was done for W₁ and for the cyclic space.
 - **No step towards Diaz's conjecture.** At a candidate every space
   here is already excluded by Roy's theorem.
+
+*Corrected on 16 October: the configurations of both R15 spaces are
+Diaz 2007, Théorème 7(1), at v = u; only their invisibility, and the
+cyclic space's lack of a Möbius ratio, were not found in the sources
+read ([entry](2026-10-16-four-configurations-in-print.md)).*
