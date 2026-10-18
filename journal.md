@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-18
+
+- **diaz** — [Which degree-one spaces Theorem B sees, decided by degrees](missions/diaz/2026-10-18-degree-one-visibility.md)
+
 ## 2026-10-16
 
 - **diaz** — [Polynomial hulls, and a barrier](missions/diaz/2026-10-16-polynomial-hulls.md)
