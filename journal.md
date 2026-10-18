@@ -5,6 +5,7 @@ mission folder it lives in.
 
 ## 2026-10-18
 
+- **diaz** — [Which polynomials in u and ū carry a configuration in their hull](missions/diaz/2026-10-18-theorem-e.md)
 - **diaz** — [Which degree-one spaces Theorem B sees, decided by degrees](missions/diaz/2026-10-18-degree-one-visibility.md)
 
 ## 2026-10-16
