@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-29
+
+- **diaz** — [Roy's theorem from a multiplicity estimate](missions/diaz/2026-10-29-roy-from-multiplicity-estimate.md)
+
 ## 2026-10-18
 
 - **diaz** — [Theorem F and Theorem E agree, and a rank-two claim corrected](missions/diaz/2026-10-23-theorem-f-caveats.md)
