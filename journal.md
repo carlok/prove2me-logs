@@ -6,6 +6,8 @@ mission folder it lives in.
 ## 2026-10-29
 
 - **diaz** — [Roy's theorem from a multiplicity estimate](missions/diaz/2026-10-29-roy-from-multiplicity-estimate.md)
+- **diaz** — [Hilbert functions for the multiplicity estimate](missions/diaz/2026-10-29-hilbert-side-multiplicity-estimate.md)
+- **diaz** — [Macaulay's unmixedness for polynomial rings](missions/diaz/2026-10-29-unmixedness-polynomial-rings.md)
 
 ## 2026-10-18
 
