@@ -1,6 +1,6 @@
 # Macaulay's unmixedness for polynomial rings
 - **Mission** — Diaz's modulus conjecture, `3045e100-83a7-4863-9c02-21f90105f182`
-- **Environment** — `0df444a` (Lean v4.33.1)
+- **Environment** — `0df444a` (Lean v4.33.1); mirrored on Mathlib v4.35.0
 - **Date** — 2026-10-29
 
 The Hilbert side of hME, proved in round C1.1, assumed one thing:
@@ -45,6 +45,10 @@ children closed.
   its statement with sorry = 0. A chain with no stubs builds on the
   platform's toolchain using only the standard axioms, and in it the
   Hilbert side of hME over ℂ is proved with no hU.
+- The mirror holds the five nodes and one bridge,
+  `Diaz.torus_hilbert_side_complex`: the Hilbert side over ℂ without
+  hU. Its other inputs, a height bound and a lower bound on the
+  Hilbert function, are what the multiplicity side has to supply.
 
 ## What is not proved
 
