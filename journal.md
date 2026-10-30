@@ -3,6 +3,10 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-10-30
+
+- **diaz** — [The multiplicity estimate, and Roy's theorem with no hypothesis](missions/diaz/2026-10-30-multiplicity-estimate-roy-unconditional.md)
+
 ## 2026-10-29
 
 - **diaz** — [Roy's theorem from a multiplicity estimate](missions/diaz/2026-10-29-roy-from-multiplicity-estimate.md)
