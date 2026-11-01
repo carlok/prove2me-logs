@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-11-01
 
+- **diaz** — [Two carried hypotheses discharged for algebraic
+  exponentials](missions/diaz/2026-11-01-hypotheses-discharged-algebraic-exponentials.md)
 - **diaz** — [Invisible degree-two spaces answer Q1.4–Q1.7; five exponentials
   follows](missions/diaz/2026-11-01-invisible-degree-two-five-exponentials.md)
 
