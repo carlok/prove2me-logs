@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-01
+
+- **diaz** — [Invisible degree-two spaces answer Q1.4–Q1.7; five exponentials
+  follows](missions/diaz/2026-11-01-invisible-degree-two-five-exponentials.md)
+
 ## 2026-10-30
 
 - **diaz** — [The multiplicity estimate, and Roy's theorem with no hypothesis](missions/diaz/2026-10-30-multiplicity-estimate-roy-unconditional.md)
