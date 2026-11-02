@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-02
+
+- **diaz** — [Roy's rank bound cannot exclude u⁴ at rank at most
+  three](missions/diaz/2026-11-02-roy-rank-bound-rank-three.md)
+
 ## 2026-11-01
 
 - **diaz** — [Two carried hypotheses discharged for algebraic
