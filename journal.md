@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-13
+
+- **diaz** — [Roy's rank bound for matrices of logarithms, with no
+  hypothesis](missions/diaz/2026-11-13-roy-corollary-one.md)
+
 ## 2026-11-02
 
 - **diaz** — [Roy's rank bound cannot exclude u⁴ at rank at most
