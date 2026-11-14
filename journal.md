@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-11-14
 
+- **diaz** — [Cor. 11.15 over ℚ, and DALAG's Lemma
+  12.9](missions/diaz/2026-11-14-cor-11-15-over-q-and-lemma-12-9.md)
 - **diaz** — [Further variations Th. 2.1 for every Y, and Roy's φ in
   closed form](missions/diaz/2026-11-14-further-variations-and-roy-phi.md)
 - **diaz** — [Roy's Theorem 5 and printed applications of his rank
