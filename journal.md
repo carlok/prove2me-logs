@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-14
+
+- **diaz** — [Roy's Theorem 5 and printed applications of his rank
+  bound](missions/diaz/2026-11-14-roy-theorem-five-and-applications.md)
+
 ## 2026-11-13
 
 - **diaz** — [Roy's rank bound for matrices of logarithms, with no
