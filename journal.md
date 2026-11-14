@@ -5,6 +5,8 @@ mission folder it lives in.
 
 ## 2026-11-14
 
+- **diaz** — [Further variations Th. 2.1 for every Y, and Roy's φ in
+  closed form](missions/diaz/2026-11-14-further-variations-and-roy-phi.md)
 - **diaz** — [Roy's Theorem 5 and printed applications of his rank
   bound](missions/diaz/2026-11-14-roy-theorem-five-and-applications.md)
 
