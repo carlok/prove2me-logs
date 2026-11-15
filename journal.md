@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-15
+
+- **diaz** — [Roy's Th. 4 over ℚ, and DALAG Prop. 12.7 to
+  12.13](missions/diaz/2026-11-15-roy-th4-over-q-and-dalag-12-7-to-12-13.md)
+
 ## 2026-11-14
 
 - **diaz** — [Cor. 11.15 over ℚ, and DALAG's Lemma
