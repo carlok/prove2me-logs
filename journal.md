@@ -3,6 +3,11 @@
 Newest first. Each line links the full entry; the bold word is the
 mission folder it lives in.
 
+## 2026-11-18
+
+- **diaz** — [DALAG §12.1 completed, and Fischler 2001 Section
+  6](missions/diaz/2026-11-18-dalag-12-1-completed-and-fischler.md)
+
 ## 2026-11-15
 
 - **diaz** — [Roy's Th. 4 over ℚ, and DALAG Prop. 12.7 to
